@@ -163,8 +163,8 @@ function datatable_notic_ajax_to_load()
 			$row[3] = hrmgt_change_dateformat(get_post_meta($aRow['ID'],'end_date',true));
 			$row[4] = ucwords(str_replace("_",' ',get_post_meta($aRow['ID'],'notice_for',true)));
 			
-			$row[5] = '<a href="?page=hrmgt-notice&tab=addnotice&action=edit&notice_id='.$aRow['ID'].'" class="btn btn-info">Edit</a>
-					<a href="?page=hrmgt-notice&tab=noticelist&action=delete&notice_id='.$aRow['ID'].'" class="btn btn-danger deletealert" 
+			$row[5] = '<a href="?page=hrmgt-notice&tab=addnotice&action=edit&notice_id='.$aRow->ID.'" class="btn btn-info">Edit</a>
+					<a href="?page=hrmgt-notice&tab=noticelist&action=delete&notice_id='.$aRow->ID.'" class="btn btn-danger deletealert" 
 					>
 					Delete</a>';
 			
@@ -583,17 +583,17 @@ function datatable_payslip_record_ajax_to_load()
 	 }
 	   $ssearch = $_REQUEST['sSearch'];
  	   if($ssearch){
-	   $sQuery = "SELECT * FROM  $sTable INNER JOIN wp_users ON ($sTable.employee_id = wp_users.ID) WHERE display_name LIKE '%$ssearch%' OR account_number LIKE '%$ssearch%' OR total_earning LIKE '%$ssearch%' OR total_deduction LIKE '%$ssearch%' OR ctc_month LIKE '%$ssearch%' OR basic_salary LIKE '%$ssearch%' OR net_salary LIKE '%$ssearch%' ORDER BY employee_id DESC $sLimit"; 
+	   $sQuery = "SELECT * FROM  $sTable INNER JOIN wp_users ON ($sTable.employee_id = wp_users.ID) WHERE display_name LIKE '%$ssearch%' OR account_number LIKE '%$ssearch%' OR total_earning LIKE '%$ssearch%' OR total_deduction LIKE '%$ssearch%' OR ctc_month LIKE '%$ssearch%' OR basic_salary LIKE '%$ssearch%' OR net_salary LIKE '%$ssearch%' Group BY employee_id , employee_id DESC $sLimit"; 
 	   }
 	   else
 	   {
-	   $sQuery = "SELECT * FROM $sTable ORDER BY id DESC $sLimit";
+	   $sQuery = "SELECT * FROM $sTable Group BY employee_id , employee_id DESC $sLimit";
 	   }
 	   $rResult = $wpdb->get_results($sQuery, ARRAY_A);
 		   
-		  $wpdb->get_results("SELECT * FROM $sTable ORDER BY id DESC $sLimit"); 
+		  $wpdb->get_results("SELECT * FROM $sTable Group BY employee_id , employee_id DESC $sLimit"); 
 		  $iFilteredTotal = $wpdb->num_rows;
-		  $wpdb->get_results(" SELECT * FROM $sTable ORDER BY id DESC $sLimit");
+		  $wpdb->get_results(" SELECT * FROM $sTable Group BY employee_id , employee_id DESC $sLimit");
 		  $iTotal = $wpdb->num_rows;
           
   
@@ -614,10 +614,7 @@ function datatable_payslip_record_ajax_to_load()
 			$row[4] = $aRow['ctc_month'];
 			$row[5] = $aRow['basic_salary'];
 			$row[6] = $aRow['net_salary'];
-            $row[7] = '<a  href="?page=hrmgt-payslip&print=pdf&type=salary_slip&AttDetail_id='.$aRow['id'].'" target="_blank"class="btn btn-success">PDF</a>
-			<a href="admin.php?page=hrmgt-payslip&tab=payslip_record&action=delete_payslip&AttDetail_id='.$aRow['id'].'" class="btn btn-danger deletealert">
-							Delete</a>
-			';
+            $row[7] = '<a  href="?page=hrmgt-payslip&print=pdf&type=salary_slip&AttDetail_id='.$aRow['id'].'" target="_blank"class="btn btn-success">PDF</a>';
 			$output['aaData'][] = $row;
 			
 		 }
@@ -637,17 +634,17 @@ function datatable_payslip_ajax_to_load()
 	 }
 	   $ssearch = $_REQUEST['sSearch'];
  	   if($ssearch){
-	   $sQuery = "SELECT * FROM  $sTable INNER JOIN wp_users ON ($sTable.employee_id = wp_users.ID) WHERE display_name LIKE '%$ssearch%' OR month LIKE '%$ssearch%' OR year LIKE '%$ssearch%' OR payable_days LIKE '%$ssearch%' ORDER BY id DESC $sLimit"; 
+	   $sQuery = "SELECT * FROM  $sTable INNER JOIN wp_users ON ($sTable.employee_id = wp_users.ID) WHERE display_name LIKE '%$ssearch%' OR month LIKE '%$ssearch%' OR year LIKE '%$ssearch%' OR payable_days LIKE '%$ssearch%'  Group BY employee_id , employee_id DESC $sLimit"; 
 	   }
 	   else
 	   {
-	   $sQuery = "SELECT * FROM $sTable ORDER BY id DESC $sLimit";
+	   $sQuery = "SELECT * FROM $sTable Group BY employee_id , employee_id DESC $sLimit";
 	   }
 	   $rResult = $wpdb->get_results($sQuery, ARRAY_A);
 		   
-		  $wpdb->get_results("SELECT * FROM $sTable ORDER BY id DESC $sLimit"); 
+		  $wpdb->get_results("SELECT * FROM $sTable Group BY employee_id , employee_id DESC $sLimit"); 
 		  $iFilteredTotal = $wpdb->num_rows;
-		  $wpdb->get_results(" SELECT * FROM $sTable ORDER BY id DESC $sLimit");
+		  $wpdb->get_results(" SELECT * FROM $sTable Group BY employee_id , employee_id DESC $sLimit");
 		  $iTotal = $wpdb->num_rows;
           
   
@@ -661,7 +658,6 @@ function datatable_payslip_ajax_to_load()
  
 		 foreach($rResult as $aRow)
 		 {
-		    
 			$row[0] = hrmgt_get_display_name($aRow['employee_id']);
 			$row[1]= $aRow['month'].'-'.$aRow['year'];
 			$row[2] = $aRow['payable_days'];
@@ -1927,7 +1923,7 @@ function hrmgt_load_multiple_day()
 	 changeMonth: true,
 	 changeYear: true,
 	 yearRange:'-65:+10',
-	 //minDate:0,
+	 minDate:0,
 	 onChangeMonthYear: function(year, month, inst) {
 	     $(this).val(month + "/" + year);
 	},
@@ -1941,7 +1937,7 @@ function hrmgt_load_multiple_day()
 	 changeMonth: true,
 	 changeYear: true,
 	 yearRange:'-65:+10',
-	// minDate:0,
+	 minDate:0,
 	 onChangeMonthYear: function(year, month, inst) {
 	     $(this).val(month + "/" + year);
 	},

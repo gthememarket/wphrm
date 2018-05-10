@@ -6,25 +6,7 @@ if(isset($_REQUEST['print']) && $_REQUEST['print']=='pdf')
 {
 	require_once HRMS_PLUGIN_DIR .'/salary_slip/salary_slip.php';
 }
-if(isset($_REQUEST['action']) && $_REQUEST['action']=='delete_payslip')
-{
-	$result=$obj_payslip->hrmgt_delete_paylisp($_REQUEST['AttDetail_id']);
-			if($result)
-				{
-					wp_redirect ('?hr-dashboard=user&page=payslip&tab=payslip_record&message=1');
-					?>
 
-	<?php
-				}
-	
-}
-if(isset($_REQUEST['message']) && $_REQUEST['message']== 1){
-?>
-	<div id="message" class="updated below-h2 msg ">
-		<p><?php _e('Payslip delete successfully','hr_mgt');?></p>
-	</div>
-	<?php 
-}
 if(isset($_POST['submit_payslip']))
 {		
 	global $wpdb;
@@ -87,14 +69,12 @@ if(isset($_REQUEST['message']))
 
 
 <div class="panel-body panel-white">
- <ul class="nav nav-tabs panel_tabs" role="tablist" style="margin-bottom:20px">	
-<?php //if($role == "manager"){ ?> 
+ <ul class="nav nav-tabs panel_tabs" role="tablist" style="margin-bottom:20px">	  
 	<li class="<?php if($active_tab=='generate_payslip'){?>active<?php }?>">
 		<a href="?hr-dashboard=user&page=payslip&tab=generate_payslip" class="tab <?php echo $active_tab == 'generate_payslip' ? 'active' : ''; ?>">
 			<i class="fa fa-align-justify"></i> <?php _e('Generate Payslip List', 'hr_mgt'); ?></a>
         </a>
 	</li>
-	<?php// } ?>
 	<li class="<?php if($active_tab=='payslip_record'){?>active<?php }?>">
 		<a href="?hr-dashboard=user&page=payslip&tab=payslip_record" class="tab <?php echo $active_tab == 'payslip_record' ? 'active' : ''; ?>">
 			<i class="fa fa-align-justify"></i> <?php _e('Payslip Record', 'hr_mgt'); ?></a>
@@ -155,9 +135,7 @@ $(document).ready(function() {
 		$SlipData=$obj_payslip->hrmgt_get_approve_attendace();		
 		if(!empty($SlipData))
 		{
-		 	foreach ($SlipData as $retrieved_data){ 
-			if(hrmgt_get_display_name($retrieved_data->employee_id) !=null){
-			?>
+		 	foreach ($SlipData as $retrieved_data){ ?>
             <tr>
 				<td class="assign"><?php print hrmgt_get_display_name($retrieved_data->employee_id); ?></td>
 				<td class="employee"><?php echo $retrieved_data->month .'-'.$retrieved_data->year;?></td>				
@@ -173,7 +151,7 @@ $(document).ready(function() {
 					<?php } ?>					
                 </td>
              </tr>
-        <?php } } } ?>
+        <?php } } ?>
 		</tbody>
     </table>
 </div>
@@ -227,17 +205,8 @@ $(document).ready(function() {
             </tr>           
         </tfoot> 
         <tbody>
-        <?php
-        		
-		$user_id = get_current_user_id();
-		if($role == "manager")
-		{ 
-			$SlipData=$obj_payslip->hrmgt_get_generated_slip();	
-		}
-		else
-		{		
-			$SlipData=$obj_payslip->hrmgt_get_generated_slip_by_user_id($user_id);	
-        }
+        <?php 
+		$SlipData=$obj_payslip->hrmgt_get_generated_slip();		
 		if(!empty($SlipData))
 		{
 		 	foreach ($SlipData as $retrieved_data){ ?>
@@ -249,13 +218,7 @@ $(document).ready(function() {
 				<td class="start"><?php echo $retrieved_data->ctc_month;?></td>
 				<td class="start"><?php echo $retrieved_data->basic_salary;?></td>
 				<td class="start"><?php echo $retrieved_data->net_salary;?></td>				
-				<td class="start"><a  href="?hr-dashboard=user&page=payslip&print=pdf&type=salary_slip&AttDetail_id=<?php echo $retrieved_data->id;?>" target="_blank" class="btn btn-success"><?php _e('PDF','hr_mgt');?></a>
-				<?php  if($role == "manager")
-				{ ?>
-					<a href="?hr-dashboard=user&page=payslip&tab=payslip_record&action=delete_payslip&AttDetail_id=<?php echo $retrieved_data->id;?>" class="btn btn-danger" onclick="return confirm('<?php _e('Are you sure you want to delete this record?','hr_mgt');?>');"><?php _e('Delete','hr_mgt');?></a>
-				<?php 
-				}?>	
-				</td>				
+				<td class="start"><a  href="?hr-dashboard=user&page=payslip&print=pdf&type=salary_slip&AttDetail_id=<?php echo $retrieved_data->id;?>" target="_blank" class="btn btn-success"><?php _e('PDF','hr_mgt');?></a></td>				
              </tr>
         <?php } } ?>
 		</tbody>
@@ -430,8 +393,7 @@ if($active_tab =='generate_slip')
 </div>
 </form>
 </div>
-<?php 
-}
+<?php }
 if($active_tab=="custom_slip")
 {
 	require_once HRMS_PLUGIN_DIR. '/template/payslip/custom_slip.php'; 

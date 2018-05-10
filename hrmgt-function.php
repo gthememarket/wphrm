@@ -1017,11 +1017,5 @@ function hrmgt_get_emp_pl($emp_id,$month,$year)
 			return 0;
 		}
 }
-function hrmgt_get_attendance_empid($empid)
-	{
-		global $wpdb;
-		$table_hrmgt_attendance = $wpdb->prefix. 'hrmgt_attendance_details';
-		$result =$wpdb->get_results("SELECT id FROM $table_hrmgt_attendance where employee_id=$empid");
-		return $result;
-	}
+
 ?>

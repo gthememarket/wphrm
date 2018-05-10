@@ -17,22 +17,7 @@ if(isset($_REQUEST['print']) && $_REQUEST['print']=='pdf')
 	require_once HRMS_PLUGIN_DIR .'/salary_slip/salary_slip.php';
 	
 }	
-if(isset($_REQUEST['action']) && $_REQUEST['action']=='delete_payslip')
-{
-	$result=$obj_payslip->hrmgt_delete_paylisp($_REQUEST['AttDetail_id']);
-	if($result)
-	{
-		wp_redirect ( admin_url().'admin.php?page=hrmgt-payslip&tab=payslip_record&message=1');
-	}
-	
-}
-if(isset($_REQUEST['message']) && $_REQUEST['message']== 1){
-?>
-	<div id="message" class="updated below-h2 ">
-		<p><?php _e('Payslip delete successfully','hr_mgt');?></p>
-	</div>
-	<?php 
-}
+
 if(isset($_POST['submit_payslip']))
 {		
 	global $wpdb;

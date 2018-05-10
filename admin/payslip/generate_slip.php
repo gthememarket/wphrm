@@ -1,6 +1,6 @@
 <?php
-	$obj_HrmgtDepartment = new HrmgtDepartment;
-	$obj_HrmgtAttendanceDetails = new HrmgtAttendanceDetails;
+	$obj_HrmgtDepartment=new HrmgtDepartment;
+	$obj_HrmgtAttendanceDetails=new HrmgtAttendanceDetails;
 	$AttDetailID = $_REQUEST['detail_id'];	
 	$AttData = $obj_HrmgtAttendanceDetails->get_single_attendance_deatail($AttDetailID);	
 	$user = get_userdata($AttData[0]->employee_id);	
