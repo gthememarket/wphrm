@@ -1,0 +1,4870 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: hr_mgt\n"
+"POT-Creation-Date: 2017-11-22 17:01+0530\n"
+"PO-Revision-Date: 2017-11-24 11:40+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: admin/access/index.php:170
+msgid "Record Updated Successfully"
+msgstr "Enregistrement mis à jour avec succès"
+
+#: admin/access/index.php:182
+msgid "Access Right Settings"
+msgstr "Accès Réglages droit"
+
+#: admin/access/index.php:200
+msgid "Menu"
+msgstr "le menu"
+
+#: admin/access/index.php:201 admin/assets-benefit/assign_assets.php:47
+#: admin/attendance/add_attendance.php:34
+#: admin/attendance/monthaly_attendance.php:35
+#: admin/client-feedback/add_cf.php:80 admin/dasboard.php:61
+#: admin/employee-training/add_training.php:135
+#: admin/general-settings/add_file.php:59 admin/leave/add_leave.php:25
+#: admin/notice/add-notice.php:63
+#: admin/parfomance-marks/add_parfomance_marks.php:76
+#: admin/project/add_project.php:65 admin/project/add_task_time.php:34
+#: admin/project/time_tracker_list.php:24
+#: admin/project/time_tracker_list.php:36 admin/skill_matrix/add_skill.php:58
+#: admin/travel/add_travel.php:50 admin/travel/index.php:115
+#: admin/travel/index.php:125 fronted_template.php:284
+#: hrmgt-ajax-function.php:774 hrmgt-ajax-function.php:1059
+#: hrmgt-function.php:260 settings.php:50 template/asset_benefit.php:197
+#: template/attendance/add_attendance.php:38
+#: template/attendance/monthaly_attendance.php:36
+#: template/client_feedback.php:260 template/employee_feedback.php:267
+#: template/employee_training.php:327 template/general/add_file.php:56
+#: template/leave.php:288 template/notice.php:242 template/performance.php:242
+#: template/project.php:242 template/project.php:254 template/project.php:366
+#: template/project.php:480 template/skill_metrix.php:177
+#: template/time_tracker.php:120 template/time_tracker.php:131
+#: template/time_tracker.php:213 template/travel.php:107
+#: template/travel.php:117 template/travel.php:221 template/user.php:513
+msgid "Employee"
+msgstr "Employés"
+
+#: admin/access/index.php:202 admin/general-settings/add_file.php:61
+#: admin/notice/add-notice.php:65 settings.php:51
+#: template/general/add_file.php:58 template/notice.php:244
+#: template/user.php:526
+msgid "Accountant"
+msgstr "Comptable"
+
+#: admin/access/index.php:203 admin/general-settings/add_file.php:60
+#: admin/notice/add-notice.php:64 template/general/add_file.php:57
+#: template/notice.php:243 template/user.php:519
+msgid "HR Manager"
+msgstr "Directeur RH"
+
+#: admin/access/index.php:209 admin/admin.php:9
+#: admin/attendance/approve_payslip.php:42 admin/attendance/index.php:286
+#: admin/attendance/index.php:294 admin/dasboard.php:75
+#: admin/payslip/custom_slip.php:70 admin/payslip/generate_slip.php:58
+#: admin/requirements/add_job.php:39 admin/requirements/index.php:192
+#: admin/requirements/index.php:203 admin/user/add_accountant.php:104
+#: admin/user/add_employee.php:240 admin/user/add_hr.php:109
+#: admin/user/upload_emp.php:18 admin/user/view_employee.php:125
+#: fronted_template.php:298 hrmgt-ajax-function.php:1366 settings.php:420
+#: template/attendance.php:294 template/attendance.php:302
+#: template/attendance/approve_payslip.php:45 template/department.php:67
+#: template/payslip.php:287 template/payslip/custom_slip.php:70
+#: template/requirements.php:168 template/requirements.php:179
+#: template/requirements.php:266 template/user/add_accountant.php:141
+#: template/user/add_employee.php:236 template/user/add_hr.php:136
+#: template/user/upload_emp.php:18 template/user/view_employee.php:134
+msgid "Department"
+msgstr "Rayon"
+
+#: admin/access/index.php:239 admin/admin.php:10 admin/user/index.php:490
+#: settings.php:422 template/user.php:506 template/user/index.php:254
+msgid "All User"
+msgstr "Tout"
+
+#: admin/access/index.php:268 admin/admin.php:11 settings.php:424
+#: template/attendance.php:84
+msgid "Attendance"
+msgstr "Relevé des présences"
+
+#: admin/access/index.php:299 admin/admin.php:13 admin/pl-mgt/index.php:54
+#: settings.php:426 template/pl.php:54
+msgid "Paid Leave"
+msgstr ""
+
+#: admin/access/index.php:329 admin/admin.php:15 admin/pl-mgt/index.php:110
+#: settings.php:428 template/pl.php:120
+msgid "Leave"
+msgstr ""
+
+#: admin/access/index.php:358 admin/admin.php:27 settings.php:430
+msgid "Payslip"
+msgstr "Bulletin de salaire"
+
+#: admin/access/index.php:388 admin/admin.php:29 settings.php:432
+msgid "Earning/Deduction"
+msgstr ""
+
+#: admin/access/index.php:417
+msgid "Asset/Benefit"
+msgstr ""
+
+#: admin/access/index.php:446 admin/admin.php:17
+#: admin/employee-training/index.php:78 hrmgt-ajax-function.php:445
+#: settings.php:438 template/employee_training.php:76
+msgid "Employee Training"
+msgstr ""
+
+#: admin/access/index.php:475
+msgid "Perfomance Marks"
+msgstr ""
+
+#: admin/access/index.php:506 admin/admin.php:25
+#: admin/parfomance-marks/add_parfomance_marks.php:60
+#: admin/parfomance-marks/index.php:100 admin/parfomance-marks/index.php:109
+#: settings.php:444 template/performance.php:138 template/performance.php:147
+#: template/performance.php:226
+msgid "Project"
+msgstr ""
+
+#: admin/access/index.php:536 admin/admin.php:33 settings.php:446
+msgid "Recruitment"
+msgstr ""
+
+#: admin/access/index.php:565 admin/admin.php:35 admin/dasboard.php:273
+#: fronted_template.php:606 settings.php:448
+msgid "Event"
+msgstr ""
+
+#: admin/access/index.php:594 admin/admin.php:22 settings.php:452
+msgid "Travel"
+msgstr ""
+
+#: admin/access/index.php:624 admin/admin.php:24 settings.php:454
+msgid "Notice"
+msgstr ""
+
+#: admin/access/index.php:654 admin/admin.php:39 settings.php:458
+msgid "Employee Feedback"
+msgstr ""
+
+#: admin/access/index.php:684 admin/admin.php:41 settings.php:460
+msgid "Client Feedback"
+msgstr ""
+
+#: admin/access/index.php:714 admin/admin.php:37 admin/dasboard.php:101
+#: fronted_template.php:330 settings.php:463
+msgid "Message"
+msgstr ""
+
+#: admin/access/index.php:744 admin/admin.php:43 template/user/index.php:354
+msgid "Report"
+msgstr ""
+
+#: admin/access/index.php:774
+msgid "Skill matrix"
+msgstr ""
+
+#: admin/access/index.php:804 admin/admin.php:47
+msgid "Mail Template"
+msgstr ""
+
+#: admin/access/index.php:836
+msgid "General"
+msgstr ""
+
+#: admin/access/index.php:862 admin/assets-benefit/assign_assets.php:112
+#: admin/attendance/add_attendance.php:107 admin/client-feedback/add_cf.php:117
+#: admin/department/add_department.php:111
+#: admin/employee-training/add_training.php:185
+#: admin/employee_feedback/add_complaint.php:93
+#: admin/employee_feedback/add_suggestion.php:74
+#: admin/general-settings/add_FAQ.php:36 admin/general-settings/add_file.php:88
+#: admin/general-settings/add_holiday.php:85
+#: admin/general-settings/add_policy.php:72
+#: admin/general-settings/general-settings.php:114 admin/leave/add_leave.php:96
+#: admin/parfomance-marks/add_parfomance_marks.php:144
+#: admin/project/add_project.php:138 admin/project/add_task_time.php:129
+#: admin/requirements/add_candidate.php:229 admin/requirements/add_job.php:174
+#: admin/skill_matrix/add_skill.php:182 admin/travel/add_travel.php:210
+#: admin/user/add_accountant.php:272 admin/user/add_employee.php:849
+#: admin/user/add_hr.php:273 template/asset_benefit.php:262
+#: template/attendance/add_attendance.php:112 template/client_feedback.php:292
+#: template/department.php:274 template/employee_feedback.php:326
+#: template/employee_feedback/add_suggestion.php:77
+#: template/employee_training.php:372 template/general/add_FAQ.php:37
+#: template/general/add_file.php:85 template/general/add_holiday.php:86
+#: template/general/add_policy.php:72 template/general/general-settings.php:107
+#: template/leave.php:364 template/performance.php:296 template/profile.php:191
+#: template/profile.php:228 template/project.php:439 template/project.php:572
+#: template/requirements.php:401 template/requirment/add_candidate.php:222
+#: template/skill_metrix.php:298 template/time_tracker.php:296
+#: template/travel.php:381 template/user/add_accountant.php:304
+#: template/user/add_employee.php:840 template/user/add_hr.php:294
+msgid "Save"
+msgstr ""
+
+#: admin/admin.php:5
+msgid "WP HRM"
+msgstr ""
+
+#: admin/admin.php:7 fronted_template.php:250 settings.php:348
+msgid "Dashboard"
+msgstr ""
+
+#: admin/admin.php:19 template/skill_metrix.php:40
+msgid "Skill Matrix"
+msgstr ""
+
+#: admin/admin.php:21
+msgid "Performance  Marks"
+msgstr ""
+
+#: admin/admin.php:31 admin/assets-benefit/index.php:112
+#: admin/assets-benefit/index.php:121 template/asset_benefit.php:105
+#: template/asset_benefit.php:114
+msgid "Assets"
+msgstr ""
+
+#: admin/admin.php:45
+msgid "Access Right"
+msgstr "Droit d'accès"
+
+#: admin/admin.php:49
+msgid "General Setting"
+msgstr ""
+
+#: admin/assets-benefit/assign_assets.php:50
+#: admin/attendance/add_attendance.php:37
+#: admin/attendance/view_attendance.php:31
+#: admin/attendance/view_attendance.php:33
+#: admin/employee_feedback/add_complaint.php:42
+#: admin/employee_feedback/add_suggestion.php:41 admin/leave/add_leave.php:29
+#: admin/leave/index.php:132 admin/leave/index.php:135
+#: admin/payslip/custom_slip.php:48 admin/pl-mgt/index.php:61
+#: admin/project/add_task_time.php:37 admin/report/index.php:146
+#: admin/skill_matrix/add_skill.php:61 admin/travel/add_travel.php:53
+#: template/asset_benefit.php:200 template/attendance/add_attendance.php:41
+#: template/attendance/view_attendance.php:31
+#: template/attendance/view_attendance.php:33
+#: template/employee_feedback.php:270
+#: template/employee_feedback/add_suggestion.php:42 template/leave.php:150
+#: template/leave.php:153 template/leave.php:291
+#: template/payslip/custom_slip.php:48 template/pl.php:72
+#: template/project.php:483 template/report.php:144
+#: template/skill_metrix.php:180 template/time_tracker.php:216
+#: template/travel.php:224
+msgid "Select Employee"
+msgstr ""
+
+#: admin/assets-benefit/assign_assets.php:69 template/asset_benefit.php:219
+msgid "Assets "
+msgstr ""
+
+#: admin/assets-benefit/assign_assets.php:72 template/asset_benefit.php:222
+msgid "Select Asset"
+msgstr ""
+
+#: admin/assets-benefit/assign_assets.php:90
+#: admin/employee-training/add_training.php:73
+#: admin/employee-training/add_training.php:98
+#: admin/general-settings/add_policy.php:44 admin/leave/add_leave.php:70
+#: admin/requirements/add_job.php:86 admin/user/add_accountant.php:153
+#: admin/user/add_employee.php:288 admin/user/add_hr.php:158
+#: template/asset_benefit.php:240 template/employee_training.php:267
+#: template/employee_training.php:292 template/general/add_policy.php:44
+#: template/leave.php:337 template/requirements.php:314
+#: template/time_tracker.php:261 template/user/add_accountant.php:190
+#: template/user/add_employee.php:284 template/user/add_hr.php:185
+msgid "Add Or Remove"
+msgstr ""
+
+#: admin/assets-benefit/assign_assets.php:94 template/asset_benefit.php:244
+msgid "Given Date"
+msgstr ""
+
+#: admin/assets-benefit/assign_assets.php:100 template/asset_benefit.php:250
+msgid "Return date"
+msgstr ""
+
+#: admin/assets-benefit/assign_assets.php:106
+#: admin/employee-training/add_training.php:179
+#: admin/employee-training/index.php:122 admin/employee-training/index.php:133
+#: admin/event/add_event.php:67 admin/event/index.php:178
+#: admin/event/index.php:188 admin/general-settings/FAQ-list.php:25
+#: admin/general-settings/FAQ-list.php:32 admin/general-settings/add_FAQ.php:29
+#: admin/general-settings/add_file.php:67
+#: admin/general-settings/add_holiday.php:79
+#: admin/general-settings/add_policy.php:54
+#: admin/general-settings/file_list.php:19
+#: admin/general-settings/file_list.php:26
+#: admin/general-settings/holiday_list.php:29
+#: admin/general-settings/holiday_list.php:38
+#: admin/general-settings/polices_list.php:23
+#: admin/general-settings/polices_list.php:32 admin/message/inbox.php:35
+#: admin/message/sendbox.php:36
+#: admin/parfomance-marks/add_parfomance_marks.php:137
+#: admin/parfomance-marks/index.php:103 admin/parfomance-marks/index.php:112
+#: admin/project/add_project.php:132 admin/project/add_task_time.php:123
+#: admin/requirements/add_job.php:122 admin/travel/add_travel.php:204
+#: admin/travel/index.php:119 hrmgt-ajax-function.php:476
+#: hrmgt-ajax-function.php:1302 hrmgt-ajax-function.php:1341
+#: hrmgt-ajax-function.php:1386 template/asset_benefit.php:256
+#: template/employee_training.php:114 template/employee_training.php:125
+#: template/employee_training.php:366 template/event.php:164
+#: template/event.php:174 template/event.php:285
+#: template/general/FAQ-list.php:25 template/general/FAQ-list.php:32
+#: template/general/add_FAQ.php:30 template/general/add_file.php:64
+#: template/general/add_holiday.php:79 template/general/add_policy.php:54
+#: template/general/file_list.php:19 template/general/file_list.php:26
+#: template/general/holiday_list.php:28 template/general/holiday_list.php:38
+#: template/general/polices_list.php:26 template/general/polices_list.php:38
+#: template/message/inbox.php:35 template/message/sendbox.php:37
+#: template/performance.php:141 template/performance.php:150
+#: template/performance.php:290 template/project.php:433
+#: template/project.php:566 template/requirements.php:351
+#: template/time_tracker.php:290 template/travel.php:111
+#: template/travel.php:121 template/travel.php:375
+msgid "Description"
+msgstr ""
+
+#: admin/assets-benefit/assign_assets.php:112 template/asset_benefit.php:262
+msgid "Assign Asset"
+msgstr ""
+
+#: admin/assets-benefit/index.php:54 template/asset_benefit.php:49
+msgid "Assets inserted successfully"
+msgstr ""
+
+#: admin/assets-benefit/index.php:58 template/asset_benefit.php:53
+msgid "Assets updated successfully."
+msgstr ""
+
+#: admin/assets-benefit/index.php:63 template/asset_benefit.php:58
+msgid "Assets deleted successfully"
+msgstr ""
+
+#: admin/assets-benefit/index.php:76
+msgid "Assets List"
+msgstr ""
+
+#: admin/assets-benefit/index.php:81
+msgid "Edit Assets"
+msgstr ""
+
+#: admin/assets-benefit/index.php:87 hrmgt-ajax-function.php:106
+#: hrmgt-ajax-function.php:108
+msgid "Add Assets"
+msgstr ""
+
+#: admin/assets-benefit/index.php:113 admin/assets-benefit/index.php:122
+#: admin/attendance/approve_payslip.php:19 admin/attendance/index.php:174
+#: admin/attendance/index.php:188 admin/attendance/index.php:283
+#: admin/attendance/index.php:291 admin/attendance/monthaly_attendance.php:84
+#: admin/attendance/monthaly_attendance.php:97 admin/dasboard.php:117
+#: admin/leave/index.php:156 admin/leave/index.php:169
+#: admin/payslip/index.php:121 admin/payslip/index.php:129
+#: admin/payslip/payslip_record.php:33 admin/payslip/payslip_record.php:45
+#: admin/pl-mgt/index.php:185 admin/pl-mgt/index.php:204
+#: admin/report/index.php:250 admin/skill_matrix/index.php:73
+#: admin/user/index.php:562 admin/user/index.php:572 fronted_template.php:444
+#: template/asset_benefit.php:106 template/asset_benefit.php:115
+#: template/attendance.php:178 template/attendance.php:192
+#: template/attendance.php:291 template/attendance.php:299
+#: template/attendance/approve_payslip.php:21
+#: template/attendance/monthaly_attendance.php:95
+#: template/attendance/monthaly_attendance.php:108 template/leave.php:173
+#: template/leave.php:188 template/payslip.php:118 template/payslip.php:126
+#: template/payslip.php:183 template/payslip.php:195 template/pl.php:196
+#: template/pl.php:217 template/report.php:250 template/skill_metrix.php:68
+#: template/user.php:607 template/user.php:617 template/user/index.php:313
+#: template/user/index.php:323
+msgid "Employee Name"
+msgstr ""
+
+#: admin/assets-benefit/index.php:114 admin/assets-benefit/index.php:123
+#: template/asset_benefit.php:107 template/asset_benefit.php:116
+msgid "Assigned Date"
+msgstr ""
+
+#: admin/assets-benefit/index.php:115 admin/assets-benefit/index.php:124
+#: template/asset_benefit.php:108 template/asset_benefit.php:117
+msgid "Return Date"
+msgstr ""
+
+#: admin/assets-benefit/index.php:116 admin/assets-benefit/index.php:125
+#: admin/attendance/index.php:183 admin/attendance/index.php:197
+#: admin/attendance/monthaly_attendance.php:92
+#: admin/attendance/monthaly_attendance.php:105
+#: admin/client-feedback/index.php:101 admin/client-feedback/index.php:110
+#: admin/department/index.php:112 admin/department/index.php:120
+#: admin/employee-training/index.php:123 admin/employee-training/index.php:134
+#: admin/employee_feedback/index.php:196 admin/employee_feedback/index.php:206
+#: admin/employee_feedback/suggestion_list.php:34
+#: admin/employee_feedback/suggestion_list.php:43 admin/event/index.php:179
+#: admin/event/index.php:189 admin/general-settings/FAQ-list.php:26
+#: admin/general-settings/FAQ-list.php:33
+#: admin/general-settings/file_list.php:20
+#: admin/general-settings/file_list.php:27
+#: admin/general-settings/holiday_list.php:30
+#: admin/general-settings/holiday_list.php:39
+#: admin/general-settings/polices_list.php:24
+#: admin/general-settings/polices_list.php:33 admin/leave/index.php:163
+#: admin/leave/index.php:176 admin/notice/index.php:136
+#: admin/notice/index.php:146 admin/parfomance-marks/index.php:104
+#: admin/parfomance-marks/index.php:113 admin/payslip/index.php:124
+#: admin/payslip/index.php:132 admin/payslip/payslip_record.php:40
+#: admin/payslip/payslip_record.php:52 admin/pl-mgt/index.php:199
+#: admin/pl-mgt/index.php:218 admin/project/index.php:172
+#: admin/project/index.php:183 admin/project/time_tracker_list.php:30
+#: admin/project/time_tracker_list.php:42
+#: admin/requirements/candidate_list.php:69
+#: admin/requirements/candidate_list.php:79 admin/requirements/index.php:197
+#: admin/requirements/index.php:208 admin/skill_matrix/index.php:83
+#: admin/travel/index.php:120 admin/travel/index.php:130
+#: admin/user/accountantlist.php:46 admin/user/accountantlist.php:56
+#: admin/user/all_user.php:35 admin/user/all_user.php:45
+#: admin/user/hr_list.php:47 admin/user/hr_list.php:58 admin/user/index.php:566
+#: admin/user/index.php:576 hrmgt-ajax-function.php:141
+#: template/asset_benefit.php:109 template/asset_benefit.php:118
+#: template/attendance.php:187 template/attendance.php:201
+#: template/attendance/monthaly_attendance.php:102
+#: template/attendance/monthaly_attendance.php:115
+#: template/client_feedback.php:97 template/client_feedback.php:106
+#: template/department.php:100 template/department.php:110
+#: template/employee_feedback.php:179 template/employee_feedback.php:189
+#: template/employee_feedback/suggestion_list.php:31
+#: template/employee_feedback/suggestion_list.php:40
+#: template/employee_training.php:115 template/employee_training.php:126
+#: template/event.php:165 template/event.php:175
+#: template/general/FAQ-list.php:26 template/general/FAQ-list.php:33
+#: template/general/file_list.php:20 template/general/file_list.php:27
+#: template/general/holiday_list.php:29 template/general/holiday_list.php:39
+#: template/general/polices_list.php:28 template/general/polices_list.php:40
+#: template/leave.php:181 template/leave.php:195 template/notice.php:137
+#: template/notice.php:147 template/payslip.php:121 template/payslip.php:129
+#: template/payslip.php:190 template/payslip.php:202
+#: template/performance.php:142 template/performance.php:151
+#: template/pl.php:211 template/pl.php:232 template/project.php:156
+#: template/project.php:167 template/project.php:248 template/project.php:260
+#: template/requirements.php:173 template/requirements.php:184
+#: template/requirment/candidate_list.php:69
+#: template/requirment/candidate_list.php:79
+#: template/requirment/shortlist_candidates.php:67
+#: template/requirment/shortlist_candidates.php:77 template/skill_metrix.php:79
+#: template/time_tracker.php:125 template/time_tracker.php:136
+#: template/travel.php:112 template/travel.php:122 template/user.php:611
+#: template/user.php:621 template/user/accountantlist.php:46
+#: template/user/accountantlist.php:56 template/user/all_user.php:36
+#: template/user/all_user.php:46 template/user/hr_list.php:45
+#: template/user/hr_list.php:58 template/user/index.php:317
+#: template/user/index.php:327
+msgid "Action"
+msgstr ""
+
+#: admin/assets-benefit/index.php:142 admin/attendance/index.php:263
+#: admin/attendance/monthaly_attendance.php:123
+#: admin/client-feedback/index.php:140 admin/department/index.php:134
+#: admin/employee-training/index.php:154 admin/employee_feedback/index.php:223
+#: admin/employee_feedback/suggestion_list.php:59 admin/event/index.php:209
+#: admin/general-settings/FAQ-list.php:47
+#: admin/general-settings/file_list.php:44
+#: admin/general-settings/holiday_list.php:58
+#: admin/general-settings/polices_list.php:50 admin/leave/index.php:209
+#: admin/notice/index.php:167 admin/parfomance-marks/index.php:129
+#: admin/project/index.php:201 admin/project/time_tracker_list.php:63
+#: admin/requirements/candidate_list.php:106 admin/requirements/index.php:227
+#: admin/skill_matrix/index.php:107 admin/travel/index.php:149
+#: admin/user/accountantlist.php:89 admin/user/all_user.php:76
+#: admin/user/hr_list.php:87 admin/user/index.php:617
+#: template/asset_benefit.php:140 template/attendance.php:276
+#: template/attendance/monthaly_attendance.php:134
+#: template/client_feedback.php:143 template/department.php:143
+#: template/employee_feedback.php:210
+#: template/employee_feedback/suggestion_list.php:55
+#: template/employee_training.php:145 template/event.php:201
+#: template/general/FAQ-list.php:55 template/general/file_list.php:59
+#: template/general/holiday_list.php:63 template/general/polices_list.php:64
+#: template/leave.php:249 template/notice.php:165 template/performance.php:181
+#: template/requirements.php:209 template/requirment/candidate_list.php:106
+#: template/requirment/shortlist_candidates.php:104
+#: template/skill_metrix.php:110 template/travel.php:153 template/user.php:672
+#: template/user/accountantlist.php:93 template/user/all_user.php:82
+#: template/user/hr_list.php:94 template/user/index.php:356
+msgid "Edit"
+msgstr ""
+
+#: admin/assets-benefit/index.php:144 admin/attendance/index.php:265
+#: admin/client-feedback/index.php:142 admin/department/index.php:136
+#: admin/employee-training/index.php:156 admin/employee_feedback/index.php:225
+#: admin/employee_feedback/suggestion_list.php:61 admin/event/index.php:211
+#: admin/general-settings/FAQ-list.php:49
+#: admin/general-settings/file_list.php:46
+#: admin/general-settings/holiday_list.php:60
+#: admin/general-settings/polices_list.php:52 admin/leave/index.php:211
+#: admin/message/view_message.php:82 admin/notice/index.php:169
+#: admin/parfomance-marks/index.php:131 admin/pl-mgt/index.php:242
+#: admin/project/index.php:203 admin/project/time_tracker_list.php:65
+#: admin/requirements/candidate_list.php:108 admin/requirements/index.php:229
+#: admin/travel/index.php:151 admin/user/all_user.php:78
+#: admin/user/index.php:619 template/asset_benefit.php:142
+#: template/attendance.php:278 template/client_feedback.php:145
+#: template/department.php:145 template/employee_feedback.php:212
+#: template/employee_feedback/suggestion_list.php:57
+#: template/employee_training.php:147 template/event.php:203
+#: template/general/FAQ-list.php:57 template/general/file_list.php:61
+#: template/general/holiday_list.php:65 template/general/polices_list.php:66
+#: template/leave.php:251 template/message/view_message.php:79
+#: template/notice.php:167 template/performance.php:183 template/pl.php:269
+#: template/project.php:201 template/project.php:290
+#: template/requirements.php:211 template/requirment/candidate_list.php:108
+#: template/requirment/shortlist_candidates.php:106
+#: template/time_tracker.php:162 template/travel.php:155 template/user.php:677
+#: template/user/all_user.php:85 template/user/index.php:358
+msgid "Are you sure you want to delete this record?"
+msgstr ""
+
+#: admin/assets-benefit/index.php:145 admin/attendance/index.php:266
+#: admin/client-feedback/index.php:143 admin/department/index.php:137
+#: admin/earning-deduction/index.php:62 admin/earning-deduction/index.php:76
+#: admin/earning-deduction/index.php:102 admin/earning-deduction/index.php:116
+#: admin/employee-training/index.php:157 admin/employee_feedback/index.php:226
+#: admin/employee_feedback/suggestion_list.php:62 admin/event/index.php:212
+#: admin/general-settings/FAQ-list.php:50
+#: admin/general-settings/file_list.php:47
+#: admin/general-settings/holiday_list.php:61
+#: admin/general-settings/polices_list.php:53 admin/leave/index.php:212
+#: admin/message/view_message.php:82 admin/message/view_message.php:94
+#: admin/notice/index.php:170 admin/parfomance-marks/index.php:132
+#: admin/pl-mgt/index.php:242 admin/project/index.php:204
+#: admin/project/time_tracker_list.php:66 admin/requirements/add_job.php:143
+#: admin/requirements/add_job.php:158 admin/requirements/candidate_list.php:109
+#: admin/requirements/index.php:230 admin/skill_matrix/add_skill.php:136
+#: admin/skill_matrix/add_skill.php:167 admin/travel/add_travel.php:153
+#: admin/travel/add_travel.php:188 admin/travel/index.php:152
+#: admin/user/accountantlist.php:92 admin/user/add_employee.php:806
+#: admin/user/add_employee.php:822 admin/user/add_employee.php:840
+#: admin/user/all_user.php:79 admin/user/hr_list.php:90
+#: admin/user/index.php:620 template/asset_benefit.php:143
+#: template/attendance.php:279 template/client_feedback.php:146
+#: template/department.php:146 template/earning_deduction.php:69
+#: template/earning_deduction.php:83 template/earning_deduction.php:109
+#: template/earning_deduction.php:123 template/employee_feedback.php:213
+#: template/employee_feedback/suggestion_list.php:58
+#: template/employee_training.php:148 template/event.php:204
+#: template/general/FAQ-list.php:58 template/general/file_list.php:62
+#: template/general/holiday_list.php:66 template/general/polices_list.php:67
+#: template/leave.php:252 template/message/view_message.php:79
+#: template/message/view_message.php:92 template/notice.php:168
+#: template/performance.php:184 template/pl.php:269
+#: template/requirements.php:212 template/requirements.php:370
+#: template/requirements.php:385 template/requirment/candidate_list.php:109
+#: template/requirment/shortlist_candidates.php:107
+#: template/skill_metrix.php:251 template/skill_metrix.php:283
+#: template/time_tracker.php:163 template/travel.php:156
+#: template/travel.php:324 template/travel.php:359 template/user.php:678
+#: template/user/accountantlist.php:96 template/user/add_employee.php:795
+#: template/user/add_employee.php:811 template/user/add_employee.php:829
+#: template/user/all_user.php:85 template/user/hr_list.php:97
+#: template/user/index.php:359
+msgid "Delete"
+msgstr ""
+
+#: admin/attendance/add_attendance.php:56 admin/attendance/index.php:175
+#: admin/attendance/index.php:189 template/attendance.php:179
+#: template/attendance.php:193 template/attendance/add_attendance.php:61
+msgid "Attendance Date"
+msgstr ""
+
+#: admin/attendance/add_attendance.php:63
+#: template/attendance/add_attendance.php:68
+msgid "Sign In Time"
+msgstr ""
+
+#: admin/attendance/add_attendance.php:72
+#: template/attendance/add_attendance.php:77
+msgid "Sign Out Time"
+msgstr ""
+
+#: admin/attendance/add_attendance.php:82 admin/attendance/index.php:178
+#: admin/attendance/index.php:192 template/attendance.php:182
+#: template/attendance.php:196 template/attendance/add_attendance.php:87
+msgid "Lunch Start Time"
+msgstr ""
+
+#: admin/attendance/add_attendance.php:91 admin/attendance/index.php:179
+#: admin/attendance/index.php:193 template/attendance.php:183
+#: template/attendance.php:197 template/attendance/add_attendance.php:96
+msgid "Lunch End Time"
+msgstr ""
+
+#: admin/attendance/add_attendance.php:100
+#: template/attendance/add_attendance.php:105
+msgid "Note"
+msgstr ""
+
+#: admin/attendance/add_attendance.php:107 admin/attendance/index.php:73
+#: template/attendance.php:98 template/attendance/add_attendance.php:112
+msgid "Add Attendance"
+msgstr ""
+
+#: admin/attendance/add_attendance_detail.php:61
+#: admin/user/view_employee.php:59 hrmgt-ajax-function.php:485
+#: hrmgt-ajax-function.php:563 hrmgt-ajax-function.php:930
+#: hrmgt-ajax-function.php:1002 hrmgt-ajax-function.php:1553
+#: template/attendance/add_attendance_detail.php:72 template/profile.php:154
+#: template/user/view_employee.php:61
+msgid "Name"
+msgstr ""
+
+#: admin/attendance/add_attendance_detail.php:64
+#: admin/requirements/add_job.php:64 admin/requirements/index.php:193
+#: admin/requirements/index.php:204 admin/user/add_accountant.php:131
+#: admin/user/add_employee.php:266 admin/user/add_hr.php:136
+#: admin/user/index.php:565 admin/user/index.php:575
+#: admin/user/view_employee.php:130 hrmgt-ajax-function.php:486
+#: hrmgt-ajax-function.php:564 hrmgt-ajax-function.php:931
+#: hrmgt-ajax-function.php:1003 hrmgt-ajax-function.php:1370
+#: template/attendance/add_attendance_detail.php:75
+#: template/requirements.php:169 template/requirements.php:180
+#: template/requirements.php:292 template/user.php:610 template/user.php:620
+#: template/user/add_accountant.php:168 template/user/add_employee.php:262
+#: template/user/add_hr.php:163 template/user/index.php:316
+#: template/user/index.php:326 template/user/view_employee.php:139
+msgid "Designation"
+msgstr ""
+
+#: admin/attendance/add_attendance_detail.php:195
+#: admin/attendance/add_attendance_detail.php:424 admin/leave/index.php:204
+#: template/attendance/add_attendance_detail.php:217
+#: template/attendance/add_attendance_detail.php:439 template/leave.php:244
+msgid "Approve"
+msgstr ""
+
+#: admin/attendance/add_attendance_detail.php:197
+#: admin/attendance/add_attendance_detail.php:426
+#: template/attendance/add_attendance_detail.php:219
+#: template/attendance/add_attendance_detail.php:441
+msgid "Approved"
+msgstr ""
+
+#: admin/attendance/add_attendance_detail.php:206
+#: template/attendance/add_attendance_detail.php:228
+msgid "Total"
+msgstr ""
+
+#: admin/attendance/add_attendance_detail.php:209
+#: admin/attendance/add_attendance_detail.php:288 hrmgt-ajax-function.php:1564
+#: template/attendance/add_attendance_detail.php:231
+#: template/attendance/add_attendance_detail.php:305
+msgid "P"
+msgstr ""
+
+#: admin/attendance/add_attendance_detail.php:210
+#: admin/attendance/add_attendance_detail.php:289 hrmgt-ajax-function.php:1567
+#: template/attendance/add_attendance_detail.php:232
+#: template/attendance/add_attendance_detail.php:306
+msgid "A"
+msgstr ""
+
+#: admin/attendance/add_attendance_detail.php:211
+#: admin/attendance/add_attendance_detail.php:290 hrmgt-ajax-function.php:1565
+#: template/attendance/add_attendance_detail.php:233
+#: template/attendance/add_attendance_detail.php:307
+msgid "H"
+msgstr ""
+
+#: admin/attendance/add_attendance_detail.php:212
+#: admin/attendance/add_attendance_detail.php:291 hrmgt-ajax-function.php:1566
+#: template/attendance/add_attendance_detail.php:234
+#: template/attendance/add_attendance_detail.php:308
+msgid "HL"
+msgstr ""
+
+#: admin/attendance/add_attendance_detail.php:213
+#: admin/attendance/add_attendance_detail.php:292 hrmgt-ajax-function.php:1568
+#: template/attendance/add_attendance_detail.php:235
+#: template/attendance/add_attendance_detail.php:309
+msgid "AA"
+msgstr ""
+
+#: admin/attendance/add_attendance_detail.php:214
+#: admin/attendance/add_attendance_detail.php:293 hrmgt-ajax-function.php:1569
+#: template/attendance/add_attendance_detail.php:236
+#: template/attendance/add_attendance_detail.php:310
+msgid "P.5"
+msgstr ""
+
+#: admin/attendance/add_attendance_detail.php:215
+#: admin/attendance/add_attendance_detail.php:294
+#: template/attendance/add_attendance_detail.php:237
+#: template/attendance/add_attendance_detail.php:311
+msgid "Total Hrs / Out Of Hrs "
+msgstr ""
+
+#: admin/attendance/add_attendance_detail.php:231
+msgid "Pay.<br>Days"
+msgstr ""
+
+#: admin/attendance/add_attendance_detail.php:234
+#: admin/attendance/add_attendance_detail.php:295
+#: template/attendance/add_attendance_detail.php:257
+#: template/attendance/add_attendance_detail.php:312
+msgid "Opening"
+msgstr ""
+
+#: admin/attendance/add_attendance_detail.php:235
+#: admin/attendance/add_attendance_detail.php:296
+#: template/attendance/add_attendance_detail.php:258
+#: template/attendance/add_attendance_detail.php:313
+msgid "New"
+msgstr ""
+
+#: admin/attendance/add_attendance_detail.php:236
+#: admin/attendance/add_attendance_detail.php:297
+#: template/attendance/add_attendance_detail.php:259
+#: template/attendance/add_attendance_detail.php:314
+msgid "Used"
+msgstr ""
+
+#: admin/attendance/add_attendance_detail.php:237
+#: admin/attendance/add_attendance_detail.php:298
+#: template/attendance/add_attendance_detail.php:260
+#: template/attendance/add_attendance_detail.php:315
+msgid "Remaining"
+msgstr ""
+
+#: admin/attendance/add_attendance_detail.php:283
+#: template/attendance/add_attendance_detail.php:301
+msgid "TOTAL"
+msgstr ""
+
+#: admin/attendance/add_attendance_detail.php:284
+#: template/attendance/add_attendance_detail.php:302
+msgid "PL"
+msgstr ""
+
+#: admin/attendance/add_attendance_detail.php:285
+msgid "Pay.<br> Days"
+msgstr ""
+
+#: admin/attendance/approve_payslip.php:15 admin/payslip/generate_slip.php:21
+#: template/attendance/approve_payslip.php:16 template/payslip.php:250
+msgid "Payslip  For the month of"
+msgstr ""
+
+#: admin/attendance/approve_payslip.php:21
+#: template/attendance/approve_payslip.php:23
+msgid "Bank Account No"
+msgstr ""
+
+#: admin/attendance/approve_payslip.php:30 admin/user/add_accountant.php:96
+#: admin/user/add_employee.php:187 admin/user/add_hr.php:101
+#: template/attendance/approve_payslip.php:33
+#: template/user/add_accountant.php:133 template/user/add_employee.php:183
+#: template/user/add_hr.php:128
+msgid "Joining Date"
+msgstr ""
+
+#: admin/attendance/approve_payslip.php:32 admin/user/add_employee.php:195
+#: template/attendance/approve_payslip.php:35
+#: template/user/add_employee.php:191
+msgid "Contract End Date"
+msgstr ""
+
+#: admin/attendance/approve_payslip.php:36
+#: template/attendance/approve_payslip.php:39
+msgid "Total Days"
+msgstr ""
+
+#: admin/attendance/approve_payslip.php:38
+#: template/attendance/approve_payslip.php:41
+msgid "Payable Day"
+msgstr ""
+
+#: admin/attendance/approve_payslip.php:44 admin/payslip/custom_slip.php:83
+#: admin/payslip/generate_slip.php:62
+#: template/attendance/approve_payslip.php:47 template/payslip.php:291
+#: template/payslip/custom_slip.php:83
+msgid "Hours"
+msgstr ""
+
+#: admin/attendance/approve_payslip.php:52 admin/earning-deduction/index.php:57
+#: admin/earning-deduction/index.php:70 admin/payslip/custom_slip.php:91
+#: admin/payslip/generate_slip.php:73
+#: template/attendance/approve_payslip.php:56 template/earning_deduction.php:64
+#: template/earning_deduction.php:77 template/payslip.php:302
+#: template/payslip/custom_slip.php:91
+msgid "Earnings"
+msgstr ""
+
+#: admin/attendance/approve_payslip.php:55
+#: admin/attendance/approve_payslip.php:107 admin/payslip/custom_slip.php:94
+#: admin/payslip/custom_slip.php:176 admin/payslip/generate_slip.php:76
+#: admin/payslip/generate_slip.php:123
+#: template/attendance/approve_payslip.php:59
+#: template/attendance/approve_payslip.php:109 template/payslip.php:305
+#: template/payslip.php:352 template/payslip/custom_slip.php:94
+#: template/payslip/custom_slip.php:176
+msgid "Salary Head"
+msgstr ""
+
+#: admin/attendance/approve_payslip.php:56 admin/payslip/custom_slip.php:95
+#: admin/payslip/generate_slip.php:77 admin/payslip/payslip_record.php:37
+#: admin/payslip/payslip_record.php:49
+#: template/attendance/approve_payslip.php:60 template/payslip.php:187
+#: template/payslip.php:199 template/payslip.php:306
+#: template/payslip/custom_slip.php:95
+msgid "CTC(Month)"
+msgstr ""
+
+#: admin/attendance/approve_payslip.php:57
+#: admin/attendance/approve_payslip.php:108 admin/payslip/custom_slip.php:96
+#: admin/payslip/custom_slip.php:177 admin/payslip/generate_slip.php:78
+#: admin/payslip/generate_slip.php:124
+#: template/attendance/approve_payslip.php:61
+#: template/attendance/approve_payslip.php:110 template/payslip.php:307
+#: template/payslip.php:353 template/payslip/custom_slip.php:96
+#: template/payslip/custom_slip.php:177
+msgid "Amount"
+msgstr ""
+
+#: admin/attendance/approve_payslip.php:60 admin/payslip/custom_slip.php:99
+#: admin/payslip/generate_slip.php:81 admin/payslip/payslip_record.php:38
+#: admin/payslip/payslip_record.php:50
+#: template/attendance/approve_payslip.php:64 template/payslip.php:188
+#: template/payslip.php:200 template/payslip.php:310
+#: template/payslip/custom_slip.php:99
+msgid "Basic Salary"
+msgstr ""
+
+#: admin/attendance/approve_payslip.php:95
+#: template/attendance/approve_payslip.php:97
+msgid "Total Earnings"
+msgstr ""
+
+#: admin/attendance/approve_payslip.php:104
+#: admin/earning-deduction/index.php:97 admin/earning-deduction/index.php:110
+#: admin/payslip/custom_slip.php:173 admin/payslip/generate_slip.php:120
+#: hrmgt-ajax-function.php:827 hrmgt-ajax-function.php:1114
+#: template/attendance/approve_payslip.php:106
+#: template/earning_deduction.php:104 template/earning_deduction.php:117
+#: template/payslip.php:349 template/payslip/custom_slip.php:173
+msgid "Deduction"
+msgstr ""
+
+#: admin/attendance/approve_payslip.php:137 admin/payslip/custom_slip.php:212
+#: admin/payslip/generate_slip.php:147
+#: template/attendance/approve_payslip.php:136 template/payslip.php:376
+#: template/payslip/custom_slip.php:212
+msgid "Total Deduction"
+msgstr ""
+
+#: admin/attendance/approve_payslip.php:141 admin/payslip/custom_slip.php:217
+#: admin/payslip/generate_slip.php:153 admin/payslip/payslip_record.php:39
+#: admin/payslip/payslip_record.php:51
+#: template/attendance/approve_payslip.php:140 template/payslip.php:189
+#: template/payslip.php:201 template/payslip.php:382
+#: template/payslip/custom_slip.php:217
+msgid "Net Salary"
+msgstr ""
+
+#: admin/attendance/approve_payslip.php:149 hrmgt-ajax-function.php:278
+#: hrmgt-ajax-function.php:442 hrmgt-ajax-function.php:883
+#: template/attendance/approve_payslip.php:146
+msgid "Print"
+msgstr ""
+
+#: admin/attendance/index.php:44 template/attendance.php:71
+msgid "Attendance insert successfully"
+msgstr ""
+
+#: admin/attendance/index.php:47 template/attendance.php:74
+msgid "Attendance update successfully."
+msgstr ""
+
+#: admin/attendance/index.php:50 template/attendance.php:76
+msgid "Attendance delete successfully"
+msgstr ""
+
+#: admin/attendance/index.php:52 template/attendance.php:78
+msgid "Attendance Already Taken"
+msgstr ""
+
+#: admin/attendance/index.php:62
+msgid "Attendance List"
+msgstr ""
+
+#: admin/attendance/index.php:67 template/attendance.php:92
+msgid "Edit Attendance"
+msgstr ""
+
+#: admin/attendance/index.php:77 template/attendance.php:105
+msgid "View Attendance"
+msgstr ""
+
+#: admin/attendance/index.php:80 template/attendance.php:112
+msgid "Monthly Attendance"
+msgstr ""
+
+#: admin/attendance/index.php:84 template/attendance.php:119
+msgid "Edit Monthly Attendance"
+msgstr ""
+
+#: admin/attendance/index.php:88 template/attendance.php:124
+msgid "Approve Payslip"
+msgstr ""
+
+#: admin/attendance/index.php:131 admin/attendance/view_attendance.php:59
+#: admin/message/inbox.php:38 fronted_template.php:378
+#: template/attendance.php:133 template/attendance/view_attendance.php:59
+msgid "Date"
+msgstr ""
+
+#: admin/attendance/index.php:135 admin/general-settings/add_policy.php:60
+#: admin/general-settings/polices_list.php:22
+#: admin/general-settings/polices_list.php:31 admin/leave/index.php:161
+#: admin/leave/index.php:174 admin/project/add_project.php:112
+#: admin/project/add_task_time.php:109 admin/project/index.php:171
+#: admin/project/index.php:182 admin/project/time_tracker_list.php:29
+#: admin/project/time_tracker_list.php:41 admin/requirements/add_job.php:90
+#: admin/requirements/index.php:196 admin/requirements/index.php:207
+#: hrmgt-ajax-function.php:1382 hrmgt-ajax-function.php:1503
+#: template/attendance.php:138 template/general/add_policy.php:60
+#: template/general/polices_list.php:25 template/general/polices_list.php:37
+#: template/leave.php:178 template/leave.php:193 template/project.php:155
+#: template/project.php:166 template/project.php:247 template/project.php:259
+#: template/project.php:415 template/project.php:552
+#: template/requirements.php:172 template/requirements.php:183
+#: template/requirements.php:318
+msgid "Status"
+msgstr ""
+
+#: admin/attendance/index.php:146 template/attendance.php:150
+msgid "Present"
+msgstr ""
+
+#: admin/attendance/index.php:147 template/attendance.php:151
+msgid "Absent"
+msgstr ""
+
+#: admin/attendance/index.php:152 admin/attendance/view_attendance.php:49
+#: admin/requirements/candidate_list.php:58 template/attendance.php:157
+#: template/attendance/view_attendance.php:48
+#: template/requirment/candidate_list.php:58
+#: template/requirment/shortlist_candidates.php:36
+msgid "Go"
+msgstr ""
+
+#: admin/attendance/index.php:176 admin/attendance/index.php:190
+#: template/attendance.php:180 template/attendance.php:194
+msgid "SignIn Time"
+msgstr ""
+
+#: admin/attendance/index.php:177 admin/attendance/index.php:191
+#: template/attendance.php:181 template/attendance.php:195
+msgid "SignOut Time"
+msgstr ""
+
+#: admin/attendance/index.php:180 admin/attendance/index.php:194
+#: admin/general-settings/office_management.php:21 template/attendance.php:184
+#: template/attendance.php:198 template/general/office_management.php:25
+#: template/general/office_management.php:78
+msgid "Working Hours"
+msgstr ""
+
+#: admin/attendance/index.php:181 admin/attendance/index.php:195
+#: template/attendance.php:185 template/attendance.php:199
+msgid "Day Status"
+msgstr ""
+
+#: admin/attendance/index.php:182 admin/attendance/index.php:196
+#: template/attendance.php:186 template/attendance.php:200
+msgid "Lunch Hours"
+msgstr ""
+
+#: admin/attendance/index.php:284 admin/attendance/index.php:292
+#: admin/attendance/monthaly_attendance.php:85
+#: admin/attendance/monthaly_attendance.php:98 template/attendance.php:292
+#: template/attendance.php:300 template/attendance/monthaly_attendance.php:96
+#: template/attendance/monthaly_attendance.php:109
+msgid "Designation "
+msgstr ""
+
+#: admin/attendance/index.php:285 admin/attendance/index.php:293
+#: admin/general-settings/general-settings.php:56
+#: admin/requirements/add_candidate.php:174
+#: admin/requirements/candidate_list.php:65
+#: admin/requirements/candidate_list.php:75 admin/user/add_accountant.php:216
+#: admin/user/add_employee.php:102 admin/user/add_hr.php:218
+#: admin/user/view_employee.php:63 template/attendance.php:293
+#: template/attendance.php:301 template/general/general-settings.php:76
+#: template/profile.php:221 template/requirment/add_candidate.php:167
+#: template/requirment/candidate_list.php:65
+#: template/requirment/candidate_list.php:75
+#: template/requirment/shortlist_candidates.php:63
+#: template/requirment/shortlist_candidates.php:73
+#: template/user/add_accountant.php:253 template/user/add_employee.php:99
+#: template/user/add_hr.php:245 template/user/view_employee.php:65
+msgid "Email"
+msgstr ""
+
+#: admin/attendance/monthaly_attendance.php:38 admin/message/composemail.php:18
+#: template/attendance/monthaly_attendance.php:39
+#: template/message/composemail.php:27
+msgid "All Employee"
+msgstr ""
+
+#: admin/attendance/monthaly_attendance.php:59
+#: template/attendance/monthaly_attendance.php:60
+msgid "Select Date"
+msgstr ""
+
+#: admin/attendance/monthaly_attendance.php:86
+#: admin/attendance/monthaly_attendance.php:99
+msgid "Date "
+msgstr ""
+
+#: admin/attendance/monthaly_attendance.php:87
+#: admin/attendance/monthaly_attendance.php:100
+#: template/attendance/monthaly_attendance.php:97
+#: template/attendance/monthaly_attendance.php:110
+msgid "Total Holiday"
+msgstr ""
+
+#: admin/attendance/monthaly_attendance.php:88
+#: admin/attendance/monthaly_attendance.php:101
+#: template/attendance/monthaly_attendance.php:98
+#: template/attendance/monthaly_attendance.php:111
+msgid "Total Present"
+msgstr ""
+
+#: admin/attendance/monthaly_attendance.php:89
+#: admin/attendance/monthaly_attendance.php:102
+#: template/attendance/monthaly_attendance.php:99
+#: template/attendance/monthaly_attendance.php:112
+msgid "Total Absent"
+msgstr ""
+
+#: admin/attendance/monthaly_attendance.php:90
+#: admin/attendance/monthaly_attendance.php:103
+#: template/attendance/monthaly_attendance.php:100
+#: template/attendance/monthaly_attendance.php:113
+msgid "Total Half Days"
+msgstr ""
+
+#: admin/attendance/monthaly_attendance.php:91
+#: admin/attendance/monthaly_attendance.php:104 admin/payslip/index.php:123
+#: admin/payslip/index.php:131 template/attendance/monthaly_attendance.php:101
+#: template/attendance/monthaly_attendance.php:114 template/payslip.php:120
+#: template/payslip.php:128
+msgid "Payable Days"
+msgstr ""
+
+#: admin/attendance/monthaly_attendance.php:132
+#: template/attendance/monthaly_attendance.php:152
+msgid "Edit All"
+msgstr ""
+
+#: admin/attendance/view_attendance.php:60
+#: template/attendance/view_attendance.php:60
+msgid "Day"
+msgstr ""
+
+#: admin/attendance/view_attendance.php:61
+#: template/attendance/view_attendance.php:61
+msgid "Sign In"
+msgstr ""
+
+#: admin/attendance/view_attendance.php:62
+#: template/attendance/view_attendance.php:62
+msgid "Sign Out"
+msgstr ""
+
+#: admin/attendance/view_attendance.php:63 fronted_template.php:411
+#: template/attendance/view_attendance.php:63
+msgid "Lunch Start"
+msgstr ""
+
+#: admin/attendance/view_attendance.php:64 fronted_template.php:412
+#: fronted_template.php:413 template/attendance/view_attendance.php:64
+msgid "Lunch End"
+msgstr ""
+
+#: admin/attendance/view_attendance.php:65
+#: template/attendance/view_attendance.php:65
+msgid "Lunch Hour"
+msgstr ""
+
+#: admin/attendance/view_attendance.php:66
+#: template/attendance/view_attendance.php:66
+msgid "Working Hour"
+msgstr ""
+
+#: admin/attendance/view_attendance.php:111
+#: template/attendance/view_attendance.php:111
+msgid "Records Not Found"
+msgstr ""
+
+#: admin/client-feedback/add_cf.php:49 admin/project/add_project.php:86
+#: admin/project/index.php:167 admin/project/index.php:178
+#: admin/report/index.php:300 hrmgt-ajax-function.php:908
+#: hrmgt-ajax-function.php:979 template/client_feedback.php:229
+#: template/project.php:151 template/project.php:162 template/project.php:390
+#: template/report.php:292
+msgid "Client Name"
+msgstr ""
+
+#: admin/client-feedback/add_cf.php:57 admin/project/add_task_time.php:58
+#: admin/project/time_tracker_list.php:25 admin/report/index.php:334
+#: template/client_feedback.php:237 template/project.php:243
+#: template/project.php:502 template/report.php:321
+#: template/time_tracker.php:121 template/time_tracker.php:240
+msgid "Project Name"
+msgstr ""
+
+#: admin/client-feedback/add_cf.php:60
+#: admin/parfomance-marks/add_parfomance_marks.php:65
+#: admin/project/add_task_time.php:61 template/client_feedback.php:240
+#: template/performance.php:231 template/project.php:505
+#: template/time_tracker.php:243
+msgid "Select Project"
+msgstr ""
+
+#: admin/client-feedback/add_cf.php:101 template/client_feedback.php:276
+msgid "comment"
+msgstr ""
+
+#: admin/client-feedback/add_cf.php:109 admin/client-feedback/index.php:100
+#: admin/client-feedback/index.php:109 admin/report/index.php:336
+#: template/client_feedback.php:96 template/client_feedback.php:105
+#: template/client_feedback.php:284 template/report.php:323
+msgid "Ratting"
+msgstr ""
+
+#: admin/client-feedback/add_cf.php:117 admin/client-feedback/index.php:71
+#: template/client_feedback.php:77 template/client_feedback.php:292
+msgid "Add Client Feedback"
+msgstr ""
+
+#: admin/client-feedback/index.php:46 template/client_feedback.php:44
+msgid "Client Feedback insert successfully"
+msgstr ""
+
+#: admin/client-feedback/index.php:48 template/client_feedback.php:46
+msgid "Client Feedback update successfully."
+msgstr ""
+
+#: admin/client-feedback/index.php:50
+msgid "Client Feedback delete successfully"
+msgstr ""
+
+#: admin/client-feedback/index.php:60 template/client_feedback.php:62
+msgid "Client Feedback List"
+msgstr ""
+
+#: admin/client-feedback/index.php:65 template/client_feedback.php:71
+msgid "Edit Client Feedback"
+msgstr ""
+
+#: admin/client-feedback/index.php:97 admin/client-feedback/index.php:106
+#: template/client_feedback.php:93 template/client_feedback.php:102
+msgid "Client  Name"
+msgstr ""
+
+#: admin/client-feedback/index.php:98 admin/client-feedback/index.php:107
+#: template/client_feedback.php:94 template/client_feedback.php:103
+msgid "Project  Name"
+msgstr ""
+
+#: admin/client-feedback/index.php:99 admin/client-feedback/index.php:108
+#: admin/report/index.php:335 hrmgt-ajax-function.php:986
+#: hrmgt-ajax-function.php:1588 hrmgt-ajax-function.php:1614
+#: template/client_feedback.php:95 template/client_feedback.php:104
+#: template/report.php:322
+msgid "Comment"
+msgstr ""
+
+#: admin/client-feedback/index.php:139 admin/employee_feedback/index.php:222
+#: admin/employee_feedback/suggestion_list.php:58 admin/event/index.php:208
+#: admin/general-settings/FAQ-list.php:46
+#: admin/general-settings/file_list.php:42
+#: admin/general-settings/holiday_list.php:57
+#: admin/parfomance-marks/index.php:128 admin/project/index.php:200
+#: admin/requirements/index.php:226 admin/travel/index.php:148
+#: admin/user/accountantlist.php:85 admin/user/accountantlist.php:88
+#: admin/user/add_employee.php:803 admin/user/all_user.php:75
+#: admin/user/hr_list.php:86 admin/user/index.php:522 admin/user/index.php:616
+#: template/attendance/monthaly_attendance.php:134
+#: template/client_feedback.php:141 template/employee_feedback.php:209
+#: template/employee_feedback/suggestion_list.php:54 template/event.php:199
+#: template/general/FAQ-list.php:53 template/general/file_list.php:56
+#: template/general/holiday_list.php:61 template/notice.php:164
+#: template/performance.php:179 template/project.php:198
+#: template/time_tracker.php:164 template/travel.php:151 template/user.php:669
+#: template/user/accountantlist.php:89 template/user/accountantlist.php:92
+#: template/user/add_employee.php:792 template/user/all_user.php:79
+#: template/user/hr_list.php:93 template/user/index.php:283
+#: template/user/index.php:355
+msgid "View"
+msgstr ""
+
+#: admin/dasboard.php:88 fronted_template.php:313
+msgid "Holidays"
+msgstr ""
+
+#: admin/dasboard.php:111 fronted_template.php:438
+msgid "Birthdays"
+msgstr ""
+
+#: admin/dasboard.php:145 fronted_template.php:474
+msgid "None"
+msgstr ""
+
+#: admin/dasboard.php:154 admin/general-settings/index.php:306
+#: fronted_template.php:486 template/genral.php:285
+msgid "Holiday List"
+msgstr ""
+
+#: admin/dasboard.php:185 fronted_template.php:517
+msgid "No Holiday"
+msgstr ""
+
+#: admin/dasboard.php:193 admin/event/index.php:135 fronted_template.php:525
+#: template/event.php:126
+msgid "Event List"
+msgstr ""
+
+#: admin/dasboard.php:225 fronted_template.php:556
+msgid "No Event"
+msgstr ""
+
+#: admin/dasboard.php:233 admin/notice/index.php:93 fronted_template.php:565
+#: template/notice.php:90
+msgid "Notice List"
+msgstr ""
+
+#: admin/dasboard.php:262 fronted_template.php:594
+msgid "No Notice"
+msgstr ""
+
+#: admin/department/add_department.php:22 admin/department/index.php:109
+#: admin/department/index.php:117 admin/user/index.php:564
+#: admin/user/index.php:574 hrmgt-ajax-function.php:59
+#: hrmgt-ajax-function.php:61 template/department.php:96
+#: template/department.php:106 template/department.php:184
+#: template/user.php:609 template/user.php:619 template/user/index.php:315
+#: template/user/index.php:325
+msgid "Department Name"
+msgstr ""
+
+#: admin/department/add_department.php:28 admin/department/index.php:111
+#: admin/department/index.php:119 hrmgt-ajax-function.php:58
+#: template/department.php:98 template/department.php:108
+#: template/department.php:190
+msgid "Parent Department"
+msgstr ""
+
+#: admin/department/add_department.php:33 admin/payslip/custom_slip.php:74
+#: admin/requirements/add_job.php:42 admin/user/add_accountant.php:107
+#: admin/user/add_employee.php:243 admin/user/add_hr.php:112
+#: admin/user/upload_emp.php:21 template/department.php:195
+#: template/payslip/custom_slip.php:74 template/requirements.php:269
+#: template/user/add_accountant.php:144 template/user/add_employee.php:239
+#: template/user/add_hr.php:139 template/user/upload_emp.php:21
+msgid "Select Department"
+msgstr ""
+
+#: admin/department/add_department.php:46 admin/department/index.php:110
+#: admin/department/index.php:118 template/department.php:97
+#: template/department.php:107 template/department.php:208
+msgid "Department Head"
+msgstr ""
+
+#: admin/department/add_department.php:49 template/department.php:211
+msgid "Select Department Head"
+msgstr ""
+
+#: admin/department/add_department.php:69 template/department.php:232
+msgid "Compassionate Leave"
+msgstr ""
+
+#: admin/department/add_department.php:75 template/department.php:238
+msgid "Hospitalisation Leave"
+msgstr ""
+
+#: admin/department/add_department.php:81 template/department.php:244
+msgid "Marriage Leave"
+msgstr ""
+
+#: admin/department/add_department.php:87 template/department.php:250
+msgid "Maternity Leave"
+msgstr ""
+
+#: admin/department/add_department.php:93 template/department.php:256
+msgid "Paternity Leave"
+msgstr ""
+
+#: admin/department/add_department.php:99 template/department.php:262
+msgid "Sick Leave"
+msgstr ""
+
+#: admin/department/add_department.php:105 template/department.php:268
+msgid "Annual Leaves Allowed"
+msgstr ""
+
+#: admin/department/add_department.php:111 admin/department/index.php:83
+#: template/department.php:80 template/department.php:274
+msgid "Add Department"
+msgstr ""
+
+#: admin/department/index.php:52
+msgid "Department successfully inserted "
+msgstr ""
+
+#: admin/department/index.php:56 template/department.php:47
+msgid "Department updated successfully."
+msgstr ""
+
+#: admin/department/index.php:60 template/department.php:57
+msgid "Department deleted successfully"
+msgstr ""
+
+#: admin/department/index.php:72
+msgid "Department List"
+msgstr ""
+
+#: admin/department/index.php:77 template/department.php:74
+msgid "Edit Department"
+msgstr ""
+
+#: admin/department/index.php:131 template/department.php:136
+msgid "No Head "
+msgstr ""
+
+#: admin/department/index.php:132 template/department.php:139
+msgid "No Department"
+msgstr ""
+
+#: admin/earning-deduction/index.php:30 template/earning_deduction.php:22
+msgid "Earning & Deduction update successfully"
+msgstr ""
+
+#: admin/earning-deduction/index.php:41
+msgid "Add Earnings & Deduction"
+msgstr ""
+
+#: admin/earning-deduction/index.php:85 template/earning_deduction.php:92
+msgid "Add More Earnings"
+msgstr ""
+
+#: admin/earning-deduction/index.php:124 template/earning_deduction.php:131
+msgid "Add More Deduction"
+msgstr ""
+
+#: admin/employee-training/add_training.php:51
+#: admin/employee-training/index.php:117 admin/employee-training/index.php:128
+#: hrmgt-ajax-function.php:452 template/employee_training.php:109
+#: template/employee_training.php:120 template/employee_training.php:245
+msgid "Training Type"
+msgstr ""
+
+#: admin/employee-training/add_training.php:54
+#: template/employee_training.php:248
+msgid "Select Training Type"
+msgstr ""
+
+#: admin/employee-training/add_training.php:76 hrmgt-ajax-function.php:123
+msgid "Training Subject ( Skill )"
+msgstr ""
+
+#: admin/employee-training/add_training.php:79
+#: admin/skill_matrix/add_skill.php:118 admin/skill_matrix/add_skill.php:148
+#: template/employee_training.php:273 template/skill_metrix.php:233
+#: template/skill_metrix.php:264
+msgid "Select Training Subject"
+msgstr ""
+
+#: admin/employee-training/add_training.php:101
+#: template/employee_training.php:295
+msgid "Training Title "
+msgstr ""
+
+#: admin/employee-training/add_training.php:109 hrmgt-ajax-function.php:460
+#: template/employee_training.php:303
+msgid "Trainer"
+msgstr ""
+
+#: admin/employee-training/add_training.php:112
+#: template/employee_training.php:306
+msgid "Select Trainer"
+msgstr ""
+
+#: admin/employee-training/add_training.php:131
+#: template/employee_training.php:323
+msgid "Add Trainer"
+msgstr ""
+
+#: admin/employee-training/add_training.php:158 hrmgt-ajax-function.php:464
+#: template/employee_training.php:345
+msgid "Training Location"
+msgstr ""
+
+#: admin/employee-training/add_training.php:165
+#: admin/employee-training/index.php:120 admin/employee-training/index.php:131
+#: hrmgt-ajax-function.php:468 template/employee_training.php:112
+#: template/employee_training.php:123 template/employee_training.php:352
+msgid "Training Start Date"
+msgstr ""
+
+#: admin/employee-training/add_training.php:172
+#: admin/employee-training/index.php:121 admin/employee-training/index.php:132
+#: hrmgt-ajax-function.php:472 template/employee_training.php:113
+#: template/employee_training.php:124 template/employee_training.php:359
+msgid "Training End Date"
+msgstr ""
+
+#: admin/employee-training/add_training.php:185
+#: template/employee_training.php:372
+msgid "Add Training"
+msgstr ""
+
+#: admin/employee-training/index.php:47
+msgid "Employee Training inserted successfully"
+msgstr ""
+
+#: admin/employee-training/index.php:54
+msgid "Employee Training updated successfully."
+msgstr ""
+
+#: admin/employee-training/index.php:63
+msgid "Employee Training deleted successfully"
+msgstr ""
+
+#: admin/employee-training/index.php:83
+msgid "Edit Training"
+msgstr ""
+
+#: admin/employee-training/index.php:89
+msgid "Add New Training"
+msgstr ""
+
+#: admin/employee-training/index.php:118 admin/employee-training/index.php:129
+#: template/employee_training.php:110 template/employee_training.php:121
+msgid "Training Title"
+msgstr ""
+
+#: admin/employee-training/index.php:119 admin/employee-training/index.php:130
+#: hrmgt-ajax-function.php:456 template/employee_training.php:111
+#: template/employee_training.php:122
+msgid "Training Subject"
+msgstr ""
+
+#: admin/employee-training/index.php:153 template/employee_training.php:144
+#: template/employee_training.php:171
+msgid "View Trainee"
+msgstr ""
+
+#: admin/employee_feedback/add_complaint.php:32
+#: admin/employee_feedback/index.php:191 admin/employee_feedback/index.php:201
+#: template/employee_feedback.php:174 template/employee_feedback.php:184
+#: template/employee_feedback.php:260
+msgid "Complaint Title"
+msgstr ""
+
+#: admin/employee_feedback/add_complaint.php:39
+#: admin/employee_feedback/index.php:192 admin/employee_feedback/index.php:202
+#: template/employee_feedback.php:175 template/employee_feedback.php:185
+msgid "Complaint From"
+msgstr ""
+
+#: admin/employee_feedback/add_complaint.php:62
+#: admin/employee_feedback/index.php:193 admin/employee_feedback/index.php:203
+#: template/employee_feedback.php:176 template/employee_feedback.php:186
+#: template/employee_feedback.php:295
+msgid "Complaint Date"
+msgstr ""
+
+#: admin/employee_feedback/add_complaint.php:68
+#: admin/employee_feedback/index.php:194 admin/employee_feedback/index.php:204
+#: template/employee_feedback.php:177 template/employee_feedback.php:187
+#: template/employee_feedback.php:301
+msgid "Complaint Status"
+msgstr ""
+
+#: admin/employee_feedback/add_complaint.php:71
+#: admin/project/add_task_time.php:113 admin/requirements/add_job.php:101
+#: admin/user/index.php:546 template/employee_feedback.php:304
+#: template/project.php:556 template/requirements.php:330 template/user.php:588
+msgid "Select Status"
+msgstr ""
+
+#: admin/employee_feedback/add_complaint.php:86
+#: admin/employee_feedback/index.php:195 admin/employee_feedback/index.php:205
+#: template/employee_feedback.php:178 template/employee_feedback.php:188
+#: template/employee_feedback.php:319
+msgid "Complaint"
+msgstr ""
+
+#: admin/employee_feedback/add_complaint.php:93
+#: template/employee_feedback.php:135 template/employee_feedback.php:326
+msgid "Add Complaint"
+msgstr ""
+
+#: admin/employee_feedback/add_suggestion.php:31
+#: admin/employee_feedback/suggestion_list.php:30
+#: admin/employee_feedback/suggestion_list.php:39
+#: template/employee_feedback/add_suggestion.php:32
+#: template/employee_feedback/suggestion_list.php:27
+#: template/employee_feedback/suggestion_list.php:36
+msgid "Suggestion Title"
+msgstr ""
+
+#: admin/employee_feedback/add_suggestion.php:38
+#: admin/employee_feedback/suggestion_list.php:31
+#: admin/employee_feedback/suggestion_list.php:40
+#: template/employee_feedback/add_suggestion.php:39
+#: template/employee_feedback/suggestion_list.php:28
+#: template/employee_feedback/suggestion_list.php:37
+msgid "Suggestion From"
+msgstr ""
+
+#: admin/employee_feedback/add_suggestion.php:61
+#: admin/employee_feedback/suggestion_list.php:32
+#: admin/employee_feedback/suggestion_list.php:41
+#: template/employee_feedback/suggestion_list.php:29
+#: template/employee_feedback/suggestion_list.php:38
+msgid "Suggestion Date"
+msgstr ""
+
+#: admin/employee_feedback/add_suggestion.php:68
+#: admin/employee_feedback/suggestion_list.php:33
+#: admin/employee_feedback/suggestion_list.php:42
+#: template/employee_feedback/add_suggestion.php:71
+#: template/employee_feedback/suggestion_list.php:30
+#: template/employee_feedback/suggestion_list.php:39
+msgid "Suggestion"
+msgstr ""
+
+#: admin/employee_feedback/add_suggestion.php:74
+#: admin/employee_feedback/index.php:163
+#: template/employee_feedback/add_suggestion.php:77
+msgid "Add Suggestion"
+msgstr ""
+
+#: admin/employee_feedback/index.php:96 template/employee_feedback.php:98
+msgid "Complaint inserted successfully"
+msgstr ""
+
+#: admin/employee_feedback/index.php:103 template/employee_feedback.php:100
+msgid "Complaint updated successfully."
+msgstr ""
+
+#: admin/employee_feedback/index.php:109 template/employee_feedback.php:102
+msgid "Complaint deleted successfully"
+msgstr ""
+
+#: admin/employee_feedback/index.php:115
+msgid "Suggestion inserted successfully"
+msgstr ""
+
+#: admin/employee_feedback/index.php:120
+msgid "Suggestion updated successfully."
+msgstr ""
+
+#: admin/employee_feedback/index.php:125
+msgid "Suggestion deleted successfully"
+msgstr ""
+
+#: admin/employee_feedback/index.php:137 template/employee_feedback.php:122
+msgid "Complaint List"
+msgstr ""
+
+#: admin/employee_feedback/index.php:142 template/employee_feedback.php:129
+msgid "Edit Complaint"
+msgstr ""
+
+#: admin/employee_feedback/index.php:148
+msgid "Add New Complaint"
+msgstr ""
+
+#: admin/employee_feedback/index.php:152
+msgid "Suggestion List"
+msgstr ""
+
+#: admin/employee_feedback/index.php:157
+msgid "Edit Suggestion"
+msgstr ""
+
+#: admin/event/add_event.php:39 admin/event/index.php:174
+#: admin/event/index.php:184 template/event.php:160 template/event.php:170
+#: template/event.php:260
+msgid "Event Title"
+msgstr ""
+
+#: admin/event/add_event.php:46 template/event.php:267
+msgid "Event Start Date"
+msgstr ""
+
+#: admin/event/add_event.php:53 template/event.php:273
+msgid "Event End Date"
+msgstr ""
+
+#: admin/event/add_event.php:60 admin/event/index.php:177
+#: admin/event/index.php:187 template/event.php:163 template/event.php:173
+#: template/event.php:279
+msgid "Event Place"
+msgstr ""
+
+#: admin/event/add_event.php:74 template/event.php:291
+msgid "Save Event"
+msgstr ""
+
+#: admin/event/add_event.php:74 template/event.php:139 template/event.php:291
+msgid "Add Event"
+msgstr ""
+
+#: admin/event/index.php:105 template/event.php:94
+msgid "Event inserted successfully"
+msgstr ""
+
+#: admin/event/index.php:112 template/event.php:99
+msgid "Event updated successfully."
+msgstr ""
+
+#: admin/event/index.php:121 template/event.php:105
+msgid "Event deleted successfully"
+msgstr ""
+
+#: admin/event/index.php:140 template/event.php:133
+msgid "Edit Event"
+msgstr ""
+
+#: admin/event/index.php:146
+msgid "Add New Event"
+msgstr ""
+
+#: admin/event/index.php:175 admin/event/index.php:185
+#: admin/notice/add-notice.php:45 admin/report/index.php:160
+#: admin/travel/add_travel.php:81 template/event.php:161 template/event.php:171
+#: template/notice.php:224 template/report.php:161 template/travel.php:252
+msgid "Start Date"
+msgstr ""
+
+#: admin/event/index.php:176 admin/event/index.php:186
+#: admin/notice/add-notice.php:51 admin/travel/add_travel.php:87
+#: template/event.php:162 template/event.php:172 template/notice.php:230
+#: template/travel.php:258
+msgid "End Date"
+msgstr ""
+
+#: admin/general-settings/FAQ-list.php:24
+#: admin/general-settings/FAQ-list.php:31
+#: admin/general-settings/add_file.php:42
+#: admin/general-settings/file_list.php:18
+#: admin/general-settings/file_list.php:25
+#: admin/general-settings/polices_list.php:20
+#: admin/general-settings/polices_list.php:29
+#: admin/parfomance-marks/add_parfomance_marks.php:99
+#: admin/parfomance-marks/index.php:101 admin/parfomance-marks/index.php:110
+#: template/general/FAQ-list.php:24 template/general/FAQ-list.php:31
+#: template/general/add_file.php:39 template/general/file_list.php:18
+#: template/general/file_list.php:25 template/general/polices_list.php:23
+#: template/general/polices_list.php:35 template/performance.php:139
+#: template/performance.php:148 template/performance.php:263
+msgid "Title"
+msgstr ""
+
+#: admin/general-settings/add_FAQ.php:22 template/general/add_FAQ.php:23
+msgid "FAQ Title"
+msgstr ""
+
+#: admin/general-settings/add_FAQ.php:36 admin/general-settings/index.php:336
+#: template/general/add_FAQ.php:37 template/genral.php:331
+msgid "Add FAQ"
+msgstr ""
+
+#: admin/general-settings/add_file.php:49 template/general/add_file.php:46
+msgid "Added Date"
+msgstr ""
+
+#: admin/general-settings/add_file.php:56 template/general/add_file.php:53
+msgid "Document For"
+msgstr ""
+
+#: admin/general-settings/add_file.php:74
+#: admin/general-settings/add_file.php:83 template/general/add_file.php:71
+#: template/general/add_file.php:80
+msgid "File"
+msgstr ""
+
+#: admin/general-settings/add_file.php:79
+#: admin/requirements/add_candidate.php:219 template/general/add_file.php:76
+#: template/requirment/add_candidate.php:212
+msgid "Upload document in PDF"
+msgstr ""
+
+#: admin/general-settings/add_file.php:88 template/general/add_file.php:85
+msgid "Add File"
+msgstr ""
+
+#: admin/general-settings/add_holiday.php:46
+#: admin/general-settings/holiday_list.php:26
+#: admin/general-settings/holiday_list.php:35 hrmgt-ajax-function.php:1281
+#: template/general/add_holiday.php:46 template/general/holiday_list.php:25
+#: template/general/holiday_list.php:35
+msgid "Holiday Title"
+msgstr ""
+
+#: admin/general-settings/add_holiday.php:52
+#: admin/general-settings/holiday_list.php:27
+#: admin/general-settings/holiday_list.php:36
+#: template/general/add_holiday.php:52 template/general/holiday_list.php:26
+#: template/general/holiday_list.php:36
+msgid "Holiday Start Date"
+msgstr ""
+
+#: admin/general-settings/add_holiday.php:66
+#: admin/general-settings/holiday_list.php:28
+#: admin/general-settings/holiday_list.php:37
+#: template/general/add_holiday.php:66 template/general/holiday_list.php:27
+#: template/general/holiday_list.php:37
+msgid "Holiday End Date"
+msgstr ""
+
+#: admin/general-settings/add_holiday.php:85
+#: template/general/add_holiday.php:86
+msgid "Add Holiday"
+msgstr ""
+
+#: admin/general-settings/add_policy.php:22
+#: admin/general-settings/polices_list.php:21
+#: admin/general-settings/polices_list.php:30
+#: template/general/add_policy.php:22 template/general/polices_list.php:24
+#: template/general/polices_list.php:36
+msgid "Policy Type"
+msgstr ""
+
+#: admin/general-settings/add_policy.php:25 template/general/add_policy.php:25
+msgid "Select Policy Type"
+msgstr ""
+
+#: admin/general-settings/add_policy.php:47 template/general/add_policy.php:47
+msgid "Policy Title"
+msgstr ""
+
+#: admin/general-settings/add_policy.php:64
+#: admin/general-settings/polices_list.php:47
+#: template/general/add_policy.php:64 template/general/polices_list.php:60
+msgid "Active"
+msgstr ""
+
+#: admin/general-settings/add_policy.php:67
+#: admin/general-settings/polices_list.php:47
+#: template/general/add_policy.php:67 template/general/polices_list.php:60
+msgid "Deactive"
+msgstr ""
+
+#: admin/general-settings/add_policy.php:72
+#: admin/general-settings/index.php:327 template/general/add_policy.php:72
+#: template/genral.php:322
+msgid "Add Policy"
+msgstr ""
+
+#: admin/general-settings/general-settings.php:8
+#: admin/general-settings/index.php:294
+#: template/general/general-settings.php:31
+msgid "General Settings"
+msgstr ""
+
+#: admin/general-settings/general-settings.php:14
+#: template/general/general-settings.php:35
+msgid "Company Name"
+msgstr ""
+
+#: admin/general-settings/general-settings.php:20
+#: template/general/general-settings.php:41
+msgid "Starting Year"
+msgstr ""
+
+#: admin/general-settings/general-settings.php:26
+#: template/general/general-settings.php:47
+msgid "Company Address"
+msgstr ""
+
+#: admin/general-settings/general-settings.php:32
+#: template/general/general-settings.php:53
+msgid "Official Phone Number"
+msgstr ""
+
+#: admin/general-settings/general-settings.php:38
+#: admin/requirements/add_candidate.php:142 admin/user/add_employee.php:376
+#: admin/user/add_employee.php:430 template/general/general-settings.php:59
+#: template/requirment/add_candidate.php:137 template/user/add_employee.php:372
+#: template/user/add_employee.php:425
+msgid "Country"
+msgstr ""
+
+#: admin/general-settings/general-settings.php:46
+#: template/general/general-settings.php:66
+msgid "Select Country"
+msgstr ""
+
+#: admin/general-settings/general-settings.php:63
+msgid "Full Day Working Hour"
+msgstr ""
+
+#: admin/general-settings/general-settings.php:69
+msgid "Half Day Working Hour"
+msgstr ""
+
+#: admin/general-settings/general-settings.php:77
+msgid "Profile Image Extension"
+msgstr ""
+
+#: admin/general-settings/general-settings.php:91
+#: template/general/general-settings.php:84
+msgid "Company Logo"
+msgstr ""
+
+#: admin/general-settings/general-settings.php:94
+#: admin/user/add_accountant.php:242 admin/user/add_accountant.php:243
+#: admin/user/add_employee.php:706 admin/user/add_employee.php:707
+#: admin/user/add_hr.php:244 admin/user/add_hr.php:245
+#: template/general/general-settings.php:87
+msgid "Upload image"
+msgstr ""
+
+#: admin/general-settings/general-settings.php:95
+#: template/general/general-settings.php:88
+msgid "Upload image."
+msgstr ""
+
+#: admin/general-settings/general-settings.php:103
+#: template/general/general-settings.php:96
+msgid "Profile Cover Image"
+msgstr ""
+
+#: admin/general-settings/general-settings.php:106
+#: admin/general-settings/general-settings.php:107
+#: template/general/general-settings.php:99
+#: template/general/general-settings.php:100
+msgid "Upload Cover Image"
+msgstr ""
+
+#: admin/general-settings/index.php:46
+msgid "Settings updated successfully"
+msgstr ""
+
+#: admin/general-settings/index.php:208 template/genral.php:179
+msgid "Policy inserted successfully"
+msgstr ""
+
+#: admin/general-settings/index.php:215 template/genral.php:182
+msgid "Policy updated successfully."
+msgstr ""
+
+#: admin/general-settings/index.php:224 template/genral.php:191
+msgid "Policy deleted successfully"
+msgstr ""
+
+#: admin/general-settings/index.php:232 admin/leave/index.php:76
+#: template/genral.php:199 template/leave.php:77
+msgid "Leave Approved successfully"
+msgstr ""
+
+#: admin/general-settings/index.php:240 template/genral.php:207
+msgid "FAQ insert successfully"
+msgstr ""
+
+#: admin/general-settings/index.php:245 template/genral.php:212
+msgid "FAQ updated successfully"
+msgstr ""
+
+#: admin/general-settings/index.php:250 template/genral.php:217
+msgid "FAQ delete successfully"
+msgstr ""
+
+#: admin/general-settings/index.php:256 template/genral.php:223
+msgid "Holiday insert successfully"
+msgstr ""
+
+#: admin/general-settings/index.php:261 template/genral.php:228
+msgid "Holiday updated successfully"
+msgstr ""
+
+#: admin/general-settings/index.php:266 template/genral.php:233
+msgid "Holiday delete successfully"
+msgstr ""
+
+#: admin/general-settings/index.php:272 template/genral.php:241
+msgid "File insert successfully"
+msgstr ""
+
+#: admin/general-settings/index.php:277 template/genral.php:246
+msgid "File updated successfully"
+msgstr ""
+
+#: admin/general-settings/index.php:282 template/genral.php:251
+msgid "File delete successfully"
+msgstr ""
+
+#: admin/general-settings/index.php:298 template/genral.php:271
+msgid "Policy List"
+msgstr ""
+
+#: admin/general-settings/index.php:303 template/genral.php:278
+msgid "FAQ List"
+msgstr ""
+
+#: admin/general-settings/index.php:309
+msgid "Company Form List"
+msgstr ""
+
+#: admin/general-settings/index.php:312 template/genral.php:299
+msgid "Office Time Schedule"
+msgstr ""
+
+#: admin/general-settings/index.php:315 template/genral.php:306
+msgid "Organization"
+msgstr ""
+
+#: admin/general-settings/index.php:330 admin/general-settings/index.php:339
+#: admin/general-settings/index.php:350 admin/general-settings/index.php:358
+#: template/genral.php:325 template/genral.php:334 template/genral.php:345
+#: template/genral.php:353
+msgid "Back To List"
+msgstr ""
+
+#: admin/general-settings/index.php:347 template/genral.php:342
+msgid "Add Holidy"
+msgstr ""
+
+#: admin/general-settings/index.php:355 template/genral.php:350
+msgid "Add Form"
+msgstr ""
+
+#: admin/general-settings/office_management.php:20
+#: template/general/office_management.php:24
+#: template/general/office_management.php:77
+msgid "Working Days"
+msgstr ""
+
+#: admin/general-settings/office_management.php:27
+#: template/general/office_management.php:31
+#: template/general/office_management.php:86
+#: template/general/office_management.php:98
+msgid "Sunday"
+msgstr ""
+
+#: admin/general-settings/office_management.php:30
+#: admin/general-settings/office_management.php:35
+#: admin/general-settings/office_management.php:40
+#: admin/general-settings/office_management.php:45
+#: admin/general-settings/office_management.php:50
+#: admin/general-settings/office_management.php:55
+#: admin/general-settings/office_management.php:60
+#: template/general/office_management.php:34
+#: template/general/office_management.php:39
+#: template/general/office_management.php:44
+#: template/general/office_management.php:49
+#: template/general/office_management.php:54
+#: template/general/office_management.php:59
+#: template/general/office_management.php:64
+msgid "Check If Close"
+msgstr ""
+
+#: admin/general-settings/office_management.php:32
+#: template/general/office_management.php:36
+#: template/general/office_management.php:112
+#: template/general/office_management.php:124
+msgid "Monday"
+msgstr ""
+
+#: admin/general-settings/office_management.php:37
+#: template/general/office_management.php:41
+#: template/general/office_management.php:141
+#: template/general/office_management.php:153
+msgid "Tuesday"
+msgstr ""
+
+#: admin/general-settings/office_management.php:42
+#: template/general/office_management.php:46
+#: template/general/office_management.php:169
+#: template/general/office_management.php:181
+msgid "Wednesday"
+msgstr ""
+
+#: admin/general-settings/office_management.php:47
+#: template/general/office_management.php:51
+#: template/general/office_management.php:196
+#: template/general/office_management.php:208
+msgid "Thursday"
+msgstr ""
+
+#: admin/general-settings/office_management.php:52
+#: template/general/office_management.php:56
+#: template/general/office_management.php:222
+#: template/general/office_management.php:234
+msgid "Friday"
+msgstr ""
+
+#: admin/general-settings/office_management.php:57
+#: template/general/office_management.php:61
+#: template/general/office_management.php:248
+#: template/general/office_management.php:260
+msgid "Saturday"
+msgstr ""
+
+#: admin/general-settings/office_management.php:65
+#: template/general/office_management.php:69
+msgid "Save Time Schedule"
+msgstr ""
+
+#: admin/leave/add_leave.php:48 admin/leave/index.php:157
+#: admin/leave/index.php:170 admin/mail_template/index.php:94
+#: admin/report/index.php:188 template/leave.php:174 template/leave.php:189
+#: template/leave.php:315 template/mail_template.php:81 template/report.php:188
+msgid "Leave Type"
+msgstr ""
+
+#: admin/leave/add_leave.php:51 template/leave.php:318
+msgid "Select Leave Type"
+msgstr ""
+
+#: admin/leave/add_leave.php:73 admin/leave/index.php:158
+#: admin/leave/index.php:171 admin/report/index.php:189 template/leave.php:175
+#: template/leave.php:190 template/leave.php:340 template/report.php:189
+msgid "Leave Duration"
+msgstr ""
+
+#: admin/leave/add_leave.php:77 template/leave.php:344
+msgid "Half Day"
+msgstr ""
+
+#: admin/leave/add_leave.php:80 template/leave.php:347
+msgid "Full Day"
+msgstr ""
+
+#: admin/leave/add_leave.php:83 template/leave.php:350
+msgid "More Than One Day"
+msgstr ""
+
+#: admin/leave/add_leave.php:90 admin/leave/index.php:162
+#: admin/leave/index.php:175 template/leave.php:179 template/leave.php:194
+#: template/leave.php:358
+msgid "Reason"
+msgstr ""
+
+#: admin/leave/add_leave.php:96 admin/leave/index.php:99 template/leave.php:136
+#: template/leave.php:364
+msgid "Add Leave"
+msgstr ""
+
+#: admin/leave/index.php:70 template/leave.php:58
+msgid "Leave inserted successfully"
+msgstr ""
+
+#: admin/leave/index.php:72 template/leave.php:66
+msgid "Leave updated successfully."
+msgstr ""
+
+#: admin/leave/index.php:74 template/leave.php:72
+msgid "Leave deleted successfully"
+msgstr ""
+
+#: admin/leave/index.php:79 template/leave.php:82
+msgid "Leave Reject successfully"
+msgstr ""
+
+#: admin/leave/index.php:88 template/leave.php:125
+msgid "Leave List"
+msgstr ""
+
+#: admin/leave/index.php:93 template/leave.php:131
+msgid "Edit Leave"
+msgstr ""
+
+#: admin/leave/index.php:155 admin/leave/index.php:168 template/leave.php:172
+#: template/leave.php:187
+msgid "Leave ID"
+msgstr ""
+
+#: admin/leave/index.php:159 admin/leave/index.php:172
+#: hrmgt-ajax-function.php:345 hrmgt-ajax-function.php:360
+#: template/leave.php:176 template/leave.php:191
+msgid "Leave Start Date"
+msgstr ""
+
+#: admin/leave/index.php:160 admin/leave/index.php:173
+#: admin/report/index.php:191 hrmgt-ajax-function.php:351
+#: template/leave.php:177 template/leave.php:192 template/report.php:191
+msgid "Leave End Date"
+msgstr ""
+
+#: admin/leave/index.php:207 template/leave.php:246
+msgid "Reject"
+msgstr ""
+
+#: admin/mail_template/index.php:62
+msgid "Add Leave Email Template"
+msgstr ""
+
+#: admin/mail_template/index.php:63
+msgid "This email template will be used when employee adds a leave"
+msgstr ""
+
+#: admin/mail_template/index.php:71 admin/mail_template/index.php:123
+#: admin/mail_template/index.php:174 admin/mail_template/index.php:224
+#: admin/mail_template/index.php:274
+msgid "Email to"
+msgstr ""
+
+#: admin/mail_template/index.php:78 admin/mail_template/index.php:130
+#: admin/mail_template/index.php:181 admin/mail_template/index.php:230
+#: admin/mail_template/index.php:281
+msgid "Email subject"
+msgstr ""
+
+#: admin/mail_template/index.php:84 admin/mail_template/index.php:136
+#: admin/mail_template/index.php:187 admin/mail_template/index.php:236
+#: admin/mail_template/index.php:287
+msgid "Email body"
+msgstr ""
+
+#: admin/mail_template/index.php:91 admin/mail_template/index.php:143
+#: admin/mail_template/index.php:194 admin/mail_template/index.php:243
+#: admin/mail_template/index.php:294 admin/mail_template/index.php:357
+#: template/mail_template.php:79 template/mail_template.php:130
+#: template/mail_template.php:181 template/mail_template.php:231
+#: template/mail_template.php:282 template/mail_template.php:345
+msgid "You can use following variables in the email template:"
+msgstr ""
+
+#: admin/mail_template/index.php:93 admin/mail_template/index.php:358
+#: template/mail_template.php:80 template/mail_template.php:346
+msgid "{{employee_name}} -"
+msgstr ""
+
+#: admin/mail_template/index.php:93 admin/mail_template/index.php:245
+msgid "Username of employee"
+msgstr ""
+
+#: admin/mail_template/index.php:94 template/mail_template.php:81
+msgid "{{leave_type}} -"
+msgstr ""
+
+#: admin/mail_template/index.php:95 template/mail_template.php:82
+msgid "{{leave_duration}} -"
+msgstr ""
+
+#: admin/mail_template/index.php:95 template/mail_template.php:82
+msgid "Duration of the leave"
+msgstr ""
+
+#: admin/mail_template/index.php:96 template/mail_template.php:83
+msgid "{{reason}} -"
+msgstr ""
+
+#: admin/mail_template/index.php:96
+msgid "Reason of the leave"
+msgstr ""
+
+#: admin/mail_template/index.php:98 template/mail_template.php:85
+msgid "{{start_date}} - "
+msgstr ""
+
+#: admin/mail_template/index.php:98
+msgid "Leave start date"
+msgstr ""
+
+#: admin/mail_template/index.php:99 template/mail_template.php:86
+msgid "{{end_date}} - "
+msgstr ""
+
+#: admin/mail_template/index.php:99
+msgid "Leave end date"
+msgstr ""
+
+#: admin/mail_template/index.php:100 admin/mail_template/index.php:149
+#: admin/mail_template/index.php:198 admin/mail_template/index.php:359
+#: template/mail_template.php:87 template/mail_template.php:136
+#: template/mail_template.php:185 template/mail_template.php:347
+msgid "{{system_name}} -"
+msgstr ""
+
+#: admin/mail_template/index.php:100 admin/mail_template/index.php:149
+#: admin/mail_template/index.php:198 template/mail_template.php:87
+#: template/mail_template.php:136 template/mail_template.php:185
+msgid "System name"
+msgstr ""
+
+#: admin/mail_template/index.php:114
+msgid "Leave Approval Email Template"
+msgstr ""
+
+#: admin/mail_template/index.php:115
+msgid "This email template will be used when employee's leave gets approved"
+msgstr ""
+
+#: admin/mail_template/index.php:144 template/mail_template.php:131
+msgid "{{user_name}} -"
+msgstr ""
+
+#: admin/mail_template/index.php:144
+msgid "The employee full name or login name (Whichever is available)"
+msgstr ""
+
+#: admin/mail_template/index.php:147 template/mail_template.php:134
+msgid "{{date}} - "
+msgstr ""
+
+#: admin/mail_template/index.php:147
+msgid "Date of leave "
+msgstr ""
+
+#: admin/mail_template/index.php:164
+msgid "Event Email Template"
+msgstr ""
+
+#: admin/mail_template/index.php:165
+msgid "This email template will be used when an event record gets generated"
+msgstr ""
+
+#: admin/mail_template/index.php:195 template/mail_template.php:182
+msgid "{{event_start_date}} - "
+msgstr ""
+
+#: admin/mail_template/index.php:195
+msgid "Event start date"
+msgstr ""
+
+#: admin/mail_template/index.php:196 template/mail_template.php:183
+msgid "{{event_end_date}} - "
+msgstr ""
+
+#: admin/mail_template/index.php:196
+msgid "Event end date"
+msgstr ""
+
+#: admin/mail_template/index.php:197 template/mail_template.php:184
+msgid "{{event_place}} - "
+msgstr ""
+
+#: admin/mail_template/index.php:197 template/mail_template.php:184
+msgid "Place of event"
+msgstr ""
+
+#: admin/mail_template/index.php:214
+msgid "Registration  Email Template"
+msgstr ""
+
+#: admin/mail_template/index.php:215
+msgid "This email template will be used when employee registers successfully"
+msgstr ""
+
+#: admin/mail_template/index.php:245 template/mail_template.php:233
+msgid "{{username}} -"
+msgstr ""
+
+#: admin/mail_template/index.php:247 template/mail_template.php:235
+msgid "{{Password}} - "
+msgstr ""
+
+#: admin/mail_template/index.php:247 template/mail_template.php:235
+msgid "Password of employee"
+msgstr ""
+
+#: admin/mail_template/index.php:248 template/mail_template.php:236
+msgid "{{Email}} - "
+msgstr ""
+
+#: admin/mail_template/index.php:248 template/mail_template.php:236
+msgid "Employee Email"
+msgstr ""
+
+#: admin/mail_template/index.php:264
+msgid "Training  Email Template"
+msgstr ""
+
+#: admin/mail_template/index.php:265
+msgid "This email template will be used when new training is added"
+msgstr ""
+
+#: admin/mail_template/index.php:295 template/mail_template.php:283
+msgid "{{training_type}} -"
+msgstr ""
+
+#: admin/mail_template/index.php:295 template/mail_template.php:283
+msgid "Type of training"
+msgstr ""
+
+#: admin/mail_template/index.php:296 template/mail_template.php:284
+msgid "{{training_subject}} -"
+msgstr ""
+
+#: admin/mail_template/index.php:296 template/mail_template.php:284
+msgid "Subject of training "
+msgstr ""
+
+#: admin/mail_template/index.php:297 template/mail_template.php:285
+msgid "{{trainer_name}} - "
+msgstr ""
+
+#: admin/mail_template/index.php:297 template/mail_template.php:285
+msgid "Name of the trainer"
+msgstr ""
+
+#: admin/mail_template/index.php:298 template/mail_template.php:286
+msgid "{{training_location}} - "
+msgstr ""
+
+#: admin/mail_template/index.php:298 template/mail_template.php:286
+msgid "Training location name"
+msgstr ""
+
+#: admin/mail_template/index.php:299 template/mail_template.php:287
+msgid "{{traininer_start_date}} - "
+msgstr ""
+
+#: admin/mail_template/index.php:299
+msgid "Training start date"
+msgstr ""
+
+#: admin/mail_template/index.php:300 template/mail_template.php:288
+msgid "{{traininer_end_date}} - "
+msgstr ""
+
+#: admin/mail_template/index.php:300
+msgid "Training end date"
+msgstr ""
+
+#: admin/mail_template/index.php:301 template/mail_template.php:289
+msgid "{{description}} -"
+msgstr ""
+
+#: admin/mail_template/index.php:301 template/mail_template.php:289
+msgid "Training Description"
+msgstr ""
+
+#: admin/mail_template/index.php:318 template/mail_template.php:306
+msgid "Employee Experience Certificate Template "
+msgstr ""
+
+#: admin/mail_template/index.php:327
+msgid "Experience Letter heading"
+msgstr ""
+
+#: admin/mail_template/index.php:334 admin/message/composemail.php:24
+#: admin/message/inbox.php:33 admin/message/sendbox.php:34
+#: admin/message/view_message.php:57 template/message/composemail.php:33
+#: template/message/inbox.php:34 template/message/sendbox.php:35
+#: template/message/view_message.php:54
+msgid "Subject"
+msgstr ""
+
+#: admin/mail_template/index.php:341
+msgid "Letter To"
+msgstr ""
+
+#: admin/mail_template/index.php:350
+msgid "Certificate Content"
+msgstr ""
+
+#: admin/mail_template/index.php:358 template/mail_template.php:346
+msgid "employee name"
+msgstr ""
+
+#: admin/mail_template/index.php:359 template/mail_template.php:347
+msgid "System Name"
+msgstr ""
+
+#: admin/mail_template/index.php:360 template/mail_template.php:348
+msgid "{{join_date}} - "
+msgstr ""
+
+#: admin/mail_template/index.php:360 template/mail_template.php:348
+msgid "Join date"
+msgstr ""
+
+#: admin/mail_template/index.php:361 template/mail_template.php:349
+msgid "{{leave_date}} - "
+msgstr ""
+
+#: admin/mail_template/index.php:361 template/mail_template.php:349
+msgid "contract end date"
+msgstr ""
+
+#: admin/message/composemail.php:15 template/message/composemail.php:24
+msgid "Message To"
+msgstr ""
+
+#: admin/message/composemail.php:30 template/message/composemail.php:39
+msgid "Message Comment"
+msgstr ""
+
+#: admin/message/composemail.php:36 template/message/composemail.php:46
+msgid " Send Mail"
+msgstr ""
+
+#: admin/message/composemail.php:45 template/message/composemail.php:54
+msgid "Send Message"
+msgstr ""
+
+#: admin/message/inbox.php:31 admin/message/sendbox.php:32
+#: template/message/inbox.php:32 template/message/sendbox.php:32
+msgid "Message For"
+msgstr ""
+
+#: admin/message/index.php:24 template/message.php:18
+msgid "Message sent successfully"
+msgstr ""
+
+#: admin/message/index.php:29 template/message.php:26
+msgid "Message deleted successfully"
+msgstr ""
+
+#: admin/message/index.php:36 admin/message/index.php:46
+#: template/message.php:38 template/message.php:48
+msgid "Compose"
+msgstr ""
+
+#: admin/message/index.php:42 admin/message/index.php:54
+#: template/message.php:44 template/message.php:59
+msgid "Inbox"
+msgstr ""
+
+#: admin/message/index.php:44 template/message.php:46
+msgid "Sent Item"
+msgstr ""
+
+#: admin/message/index.php:55 template/message.php:64
+msgid "Sent"
+msgstr ""
+
+#: admin/message/view_message.php:67 template/message/view_message.php:65
+msgid "Group"
+msgstr ""
+
+#: admin/message/view_message.php:109 template/message/view_message.php:112
+msgid "Replay"
+msgstr ""
+
+#: admin/notice/add-notice.php:37 admin/notice/index.php:131
+#: admin/notice/index.php:141 template/notice.php:132 template/notice.php:142
+#: template/notice.php:216
+msgid "Notice Title"
+msgstr ""
+
+#: admin/notice/add-notice.php:59 admin/notice/index.php:135
+#: admin/notice/index.php:145 template/notice.php:136 template/notice.php:146
+#: template/notice.php:238
+msgid "Notice For"
+msgstr ""
+
+#: admin/notice/add-notice.php:62 hrmgt-function.php:258
+#: template/notice.php:241
+msgid "All"
+msgstr ""
+
+#: admin/notice/add-notice.php:70 admin/notice/index.php:132
+#: admin/notice/index.php:142 template/notice.php:133 template/notice.php:143
+#: template/notice.php:249
+msgid "Notice Comment"
+msgstr ""
+
+#: admin/notice/add-notice.php:76 template/notice.php:257
+msgid "Save Notice"
+msgstr ""
+
+#: admin/notice/add-notice.php:76 admin/notice/index.php:103
+#: template/notice.php:101 template/notice.php:257
+msgid "Add Notice"
+msgstr ""
+
+#: admin/notice/index.php:67 template/notice.php:59
+msgid "Notice inserted successfully"
+msgstr ""
+
+#: admin/notice/index.php:74
+msgid "Notice update successfully"
+msgstr ""
+
+#: admin/notice/index.php:81
+msgid "Notice delete successfully"
+msgstr ""
+
+#: admin/notice/index.php:97 template/notice.php:96
+msgid "Edit Notice"
+msgstr ""
+
+#: admin/notice/index.php:133 admin/notice/index.php:143
+#: template/notice.php:134 template/notice.php:144
+msgid "Notice Start Date"
+msgstr ""
+
+#: admin/notice/index.php:134 admin/notice/index.php:144
+#: template/notice.php:135 template/notice.php:145
+msgid "Notice End Date"
+msgstr ""
+
+#: admin/parfomance-marks/add_parfomance_marks.php:106
+#: template/performance.php:140 template/performance.php:149
+#: template/performance.php:270
+msgid "Marks"
+msgstr ""
+
+#: admin/parfomance-marks/add_parfomance_marks.php:117
+#: admin/parfomance-marks/add_parfomance_marks.php:127
+#: admin/report/index.php:226 template/performance.php:279
+#: template/report.php:226
+msgid "Performance Evaluation period"
+msgstr ""
+
+#: admin/parfomance-marks/add_parfomance_marks.php:120
+#: template/performance.php:282
+msgid "To"
+msgstr ""
+
+#: admin/parfomance-marks/add_parfomance_marks.php:144
+#: template/performance.php:296
+msgid "Add Performance Mark"
+msgstr ""
+
+#: admin/parfomance-marks/index.php:49
+msgid "Perfomance Mark insert successfully"
+msgstr ""
+
+#: admin/parfomance-marks/index.php:54
+msgid "Perfomance Mark update successfully."
+msgstr ""
+
+#: admin/parfomance-marks/index.php:59
+msgid "Perfomance Mark delete successfully"
+msgstr ""
+
+#: admin/parfomance-marks/index.php:72
+msgid "Performance  Marks List"
+msgstr ""
+
+#: admin/parfomance-marks/index.php:77
+msgid "Edit Performance  Marks"
+msgstr ""
+
+#: admin/parfomance-marks/index.php:83
+msgid "Add Performance  Marks"
+msgstr ""
+
+#: admin/parfomance-marks/index.php:102 admin/parfomance-marks/index.php:111
+msgid "Mark"
+msgstr ""
+
+#: admin/payslip/custom_slip.php:35 template/payslip/custom_slip.php:35
+msgid "Payslip  For the month of "
+msgstr ""
+
+#: admin/payslip/custom_slip.php:44 admin/payslip/generate_slip.php:31
+#: template/payslip.php:260 template/payslip/custom_slip.php:44
+msgid "Employee Name :"
+msgstr ""
+
+#: admin/payslip/custom_slip.php:54 admin/payslip/generate_slip.php:33
+#: template/payslip.php:262 template/payslip/custom_slip.php:54
+msgid "Account No :"
+msgstr ""
+
+#: admin/payslip/custom_slip.php:58 admin/payslip/generate_slip.php:40
+#: template/payslip.php:269 template/payslip/custom_slip.php:58
+msgid "Joining Date :"
+msgstr ""
+
+#: admin/payslip/custom_slip.php:60 admin/payslip/generate_slip.php:42
+#: template/payslip.php:271 template/payslip/custom_slip.php:60
+msgid "Contract End Date :"
+msgstr ""
+
+#: admin/payslip/custom_slip.php:64 admin/payslip/generate_slip.php:46
+#: template/payslip.php:275 template/payslip/custom_slip.php:64
+msgid "Total Days :"
+msgstr ""
+
+#: admin/payslip/custom_slip.php:66 admin/payslip/generate_slip.php:51
+#: template/payslip.php:280 template/payslip/custom_slip.php:66
+msgid "Payable Day :"
+msgstr ""
+
+#: admin/payslip/custom_slip.php:106 template/payslip/custom_slip.php:106
+msgid "Dearness Allowance (D.A.)"
+msgstr ""
+
+#: admin/payslip/custom_slip.php:111 template/payslip/custom_slip.php:111
+msgid "House Rent Allowance (H.R.A.)"
+msgstr ""
+
+#: admin/payslip/custom_slip.php:116 template/payslip/custom_slip.php:116
+msgid "Conveyance Allowance"
+msgstr ""
+
+#: admin/payslip/custom_slip.php:121 admin/user/add_employee.php:502
+#: template/payslip/custom_slip.php:121 template/user/add_employee.php:496
+msgid "Travel Allowance (T.A.)"
+msgstr ""
+
+#: admin/payslip/custom_slip.php:126 admin/user/add_employee.php:514
+#: template/payslip/custom_slip.php:126 template/user/add_employee.php:508
+msgid "Medical Allowance"
+msgstr ""
+
+#: admin/payslip/custom_slip.php:131 admin/user/add_employee.php:526
+#: template/payslip/custom_slip.php:131 template/user/add_employee.php:520
+msgid "Food Allowance"
+msgstr ""
+
+#: admin/payslip/custom_slip.php:136 admin/user/add_employee.php:538
+#: template/payslip/custom_slip.php:136 template/user/add_employee.php:532
+msgid "Mobile Allowance"
+msgstr ""
+
+#: admin/payslip/custom_slip.php:141 template/user/add_employee.php:544
+msgid "Performance Incentives"
+msgstr ""
+
+#: admin/payslip/custom_slip.php:146 admin/user/add_employee.php:562
+#: template/payslip/custom_slip.php:146 template/user/add_employee.php:556
+msgid "Salary Difference"
+msgstr ""
+
+#: admin/payslip/custom_slip.php:163 admin/payslip/generate_slip.php:110
+#: template/payslip.php:339 template/payslip/custom_slip.php:163
+msgid "Total Earning"
+msgstr ""
+
+#: admin/payslip/custom_slip.php:180 admin/user/add_employee.php:592
+#: template/payslip/custom_slip.php:180 template/user/add_employee.php:589
+msgid "Professional Tax"
+msgstr ""
+
+#: admin/payslip/custom_slip.php:185 admin/user/add_employee.php:604
+#: template/payslip/custom_slip.php:185 template/user/add_employee.php:601
+msgid "Loan Repayment / Advance"
+msgstr ""
+
+#: admin/payslip/custom_slip.php:190 admin/user/add_employee.php:616
+#: template/payslip/custom_slip.php:190 template/user/add_employee.php:613
+msgid "Mobile Bill Recovery"
+msgstr ""
+
+#: admin/payslip/custom_slip.php:195 admin/user/add_employee.php:630
+#: template/payslip/custom_slip.php:195 template/user/add_employee.php:625
+msgid "Tax Deducted at Source (T.D.S.)"
+msgstr ""
+
+#: admin/payslip/custom_slip.php:227 admin/payslip/payslip_record.php:69
+#: template/payslip.php:219 template/payslip/custom_slip.php:227
+msgid "PDF"
+msgstr ""
+
+#: admin/payslip/index.php:76 template/payslip.php:64
+msgid "Payslip Record added successfully "
+msgstr ""
+
+#: admin/payslip/index.php:87 template/payslip.php:75
+msgid "Generate Payslip List"
+msgstr ""
+
+#: admin/payslip/index.php:90 template/payslip.php:80
+msgid "Payslip Record"
+msgstr ""
+
+#: admin/payslip/index.php:93 template/payslip.php:86
+msgid "Custom Payslip"
+msgstr ""
+
+#: admin/payslip/index.php:97 admin/payslip/index.php:146
+#: template/payslip.php:93 template/payslip.php:146 template/payslip.php:149
+msgid "Generate Slip"
+msgstr ""
+
+#: admin/payslip/index.php:122 admin/payslip/index.php:130
+#: hrmgt-ajax-function.php:764 hrmgt-ajax-function.php:1046
+#: template/payslip.php:119 template/payslip.php:127
+msgid "Salary Month"
+msgstr ""
+
+#: admin/payslip/payslip_record.php:34 admin/payslip/payslip_record.php:46
+#: template/payslip.php:184 template/payslip.php:196
+msgid "Account No."
+msgstr ""
+
+#: admin/payslip/payslip_record.php:35 admin/payslip/payslip_record.php:47
+#: template/payslip.php:185 template/payslip.php:197
+msgid "Total Earning Amount"
+msgstr ""
+
+#: admin/payslip/payslip_record.php:36 admin/payslip/payslip_record.php:48
+#: template/payslip.php:186 template/payslip.php:198
+msgid "Total Deduction Amount"
+msgstr ""
+
+#: admin/pl-mgt/index.php:34 template/pl.php:31
+msgid "Paid Leave Successfully Saved"
+msgstr ""
+
+#: admin/pl-mgt/index.php:38 template/pl.php:38
+msgid "Paid Leave Successfully Delete"
+msgstr ""
+
+#: admin/pl-mgt/index.php:51 template/pl.php:48
+msgid "Paid Leave List"
+msgstr ""
+
+#: admin/pl-mgt/index.php:63 template/pl.php:74
+msgid "Select Employee "
+msgstr ""
+
+#: admin/pl-mgt/index.php:82 admin/pl-mgt/index.php:103
+#: admin/pl-mgt/index.php:186 admin/pl-mgt/index.php:205 template/pl.php:93
+#: template/pl.php:113 template/pl.php:197 template/pl.php:218
+msgid "Year"
+msgstr ""
+
+#: admin/pl-mgt/index.php:87 template/pl.php:98
+msgid "GO"
+msgstr ""
+
+#: admin/pl-mgt/index.php:100 template/pl.php:110
+msgid "Employee Name : "
+msgstr ""
+
+#: admin/pl-mgt/index.php:109 template/pl.php:119
+msgid "Month"
+msgstr ""
+
+#: admin/pl-mgt/index.php:139 template/pl.php:149
+msgid "Save "
+msgstr ""
+
+#: admin/pl-mgt/index.php:187 admin/pl-mgt/index.php:206 template/pl.php:198
+#: template/pl.php:219
+msgid "January"
+msgstr ""
+
+#: admin/pl-mgt/index.php:188 admin/pl-mgt/index.php:207 template/pl.php:199
+#: template/pl.php:220
+msgid "February"
+msgstr ""
+
+#: admin/pl-mgt/index.php:189 admin/pl-mgt/index.php:208 template/pl.php:200
+#: template/pl.php:221
+msgid "March"
+msgstr ""
+
+#: admin/pl-mgt/index.php:190 admin/pl-mgt/index.php:209 template/pl.php:201
+#: template/pl.php:222
+msgid "April"
+msgstr ""
+
+#: admin/pl-mgt/index.php:191 admin/pl-mgt/index.php:210 template/pl.php:202
+#: template/pl.php:223
+msgid "May"
+msgstr ""
+
+#: admin/pl-mgt/index.php:192 admin/pl-mgt/index.php:211 template/pl.php:203
+#: template/pl.php:224
+msgid "June"
+msgstr ""
+
+#: admin/pl-mgt/index.php:193 admin/pl-mgt/index.php:212 template/pl.php:204
+#: template/pl.php:225
+msgid "July"
+msgstr ""
+
+#: admin/pl-mgt/index.php:194 admin/pl-mgt/index.php:213 template/pl.php:205
+#: template/pl.php:226
+msgid "August"
+msgstr ""
+
+#: admin/pl-mgt/index.php:195 admin/pl-mgt/index.php:214 template/pl.php:206
+#: template/pl.php:227
+msgid "September"
+msgstr ""
+
+#: admin/pl-mgt/index.php:196 admin/pl-mgt/index.php:215 template/pl.php:207
+#: template/pl.php:228
+msgid "October"
+msgstr ""
+
+#: admin/pl-mgt/index.php:197 admin/pl-mgt/index.php:216 template/pl.php:208
+#: template/pl.php:229
+msgid "November"
+msgstr ""
+
+#: admin/pl-mgt/index.php:198 admin/pl-mgt/index.php:217 template/pl.php:209
+#: template/pl.php:230
+msgid "December"
+msgstr ""
+
+#: admin/project/add_project.php:80 admin/project/index.php:166
+#: admin/project/index.php:177 hrmgt-ajax-function.php:905
+#: hrmgt-ajax-function.php:983 template/project.php:150
+#: template/project.php:161 template/project.php:384
+msgid "Project Title"
+msgstr ""
+
+#: admin/project/add_project.php:92 admin/project/index.php:168
+#: admin/project/index.php:179 admin/report/index.php:301
+#: template/project.php:152 template/project.php:163 template/project.php:396
+#: template/report.php:293
+msgid "Project Start Date"
+msgstr ""
+
+#: admin/project/add_project.php:98 admin/project/index.php:169
+#: admin/project/index.php:180 admin/report/index.php:302
+#: template/project.php:153 template/project.php:164 template/project.php:402
+#: template/report.php:294
+msgid "Project End Date"
+msgstr ""
+
+#: admin/project/add_project.php:105 admin/project/index.php:170
+#: admin/project/index.php:181 admin/report/index.php:303
+#: template/project.php:154 template/project.php:165 template/project.php:409
+#: template/report.php:295
+msgid "Actual Completion Date"
+msgstr ""
+
+#: admin/project/add_project.php:115 admin/project/add_task_time.php:114
+#: template/project.php:418 template/project.php:557
+msgid "Delay"
+msgstr ""
+
+#: admin/project/add_project.php:116 template/project.php:419
+msgid "In Progress"
+msgstr ""
+
+#: admin/project/add_project.php:117 admin/project/add_task_time.php:116
+#: template/project.php:420 template/project.php:559
+msgid "Pending"
+msgstr ""
+
+#: admin/project/add_project.php:118 admin/project/add_task_time.php:117
+#: template/project.php:421 template/project.php:560
+msgid "Complete"
+msgstr ""
+
+#: admin/project/add_project.php:124 template/project.php:427
+msgid "Remark"
+msgstr ""
+
+#: admin/project/add_project.php:138 template/project.php:111
+#: template/project.php:439
+msgid "Add Project"
+msgstr ""
+
+#: admin/project/add_task_time.php:81
+msgid "Task Title"
+msgstr ""
+
+#: admin/project/add_task_time.php:88 admin/project/time_tracker_list.php:26
+#: admin/project/time_tracker_list.php:38 hrmgt-ajax-function.php:1329
+#: template/project.php:244 template/project.php:256
+#: template/time_tracker.php:122 template/time_tracker.php:133
+msgid "Working Date"
+msgstr ""
+
+#: admin/project/add_task_time.php:95 template/project.php:540
+#: template/time_tracker.php:278
+msgid "Start Time"
+msgstr ""
+
+#: admin/project/add_task_time.php:101 template/project.php:546
+#: template/time_tracker.php:284
+msgid "End Time"
+msgstr ""
+
+#: admin/project/add_task_time.php:115 template/project.php:558
+msgid "In process"
+msgstr ""
+
+#: admin/project/add_task_time.php:129 hrmgt-ajax-function.php:82
+#: hrmgt-ajax-function.php:84 template/project.php:572
+#: template/time_tracker.php:296
+msgid "Add Task"
+msgstr ""
+
+#: admin/project/index.php:63 template/project.php:67
+msgid "Project inserted successfully"
+msgstr ""
+
+#: admin/project/index.php:68
+msgid "Project updated successfully."
+msgstr ""
+
+#: admin/project/index.php:77 template/project.php:73
+msgid "Project deleted successfully"
+msgstr ""
+
+#: admin/project/index.php:85
+msgid "Task successfully inserted "
+msgstr ""
+
+#: admin/project/index.php:93
+msgid "Task successfully updated "
+msgstr ""
+
+#: admin/project/index.php:101
+msgid "Task successfully deleted "
+msgstr ""
+
+#: admin/project/index.php:115 template/project.php:97
+msgid "Project List"
+msgstr ""
+
+#: admin/project/index.php:120 template/project.php:105
+msgid "Edit Project"
+msgstr ""
+
+#: admin/project/index.php:126
+msgid "Add New Project"
+msgstr ""
+
+#: admin/project/index.php:129
+msgid "Time Task List"
+msgstr ""
+
+#: admin/project/index.php:134 template/project.php:126
+msgid "Edit Task Time"
+msgstr ""
+
+#: admin/project/index.php:139 template/project.php:132
+msgid "Add Task Time"
+msgstr ""
+
+#: admin/project/time_tracker_list.php:23
+#: admin/project/time_tracker_list.php:35 hrmgt-ajax-function.php:1325
+#: template/project.php:241 template/project.php:253 template/project.php:526
+#: template/time_tracker.php:119 template/time_tracker.php:130
+#: template/time_tracker.php:264
+msgid "Work Title"
+msgstr ""
+
+#: admin/project/time_tracker_list.php:27
+#: admin/project/time_tracker_list.php:39 template/project.php:245
+#: template/project.php:257 template/time_tracker.php:123
+#: template/time_tracker.php:134
+msgid "Task Start Time"
+msgstr ""
+
+#: admin/project/time_tracker_list.php:28
+#: admin/project/time_tracker_list.php:40 template/project.php:246
+#: template/project.php:258 template/time_tracker.php:124
+#: template/time_tracker.php:135
+msgid "Task End Time"
+msgstr ""
+
+#: admin/project/time_tracker_list.php:37 template/project.php:255
+#: template/time_tracker.php:132
+msgid "Project Name "
+msgstr ""
+
+#: admin/report/index.php:30 template/report.php:26
+msgid "Department Report"
+msgstr ""
+
+#: admin/report/index.php:36 template/report.php:32
+msgid "Payslip Report"
+msgstr ""
+
+#: admin/report/index.php:41 template/report.php:37
+msgid "Employee Report"
+msgstr ""
+
+#: admin/report/index.php:144 template/report.php:142
+msgid " Select Employee"
+msgstr ""
+
+#: admin/report/index.php:164 template/report.php:165
+msgid "End date"
+msgstr ""
+
+#: admin/report/index.php:182 template/report.php:182
+msgid " Report For : "
+msgstr ""
+
+#: admin/report/index.php:183 template/report.php:183
+msgid "1. Leave Report"
+msgstr ""
+
+#: admin/report/index.php:190 template/report.php:190
+msgid "Leave Start Date "
+msgstr ""
+
+#: admin/report/index.php:192 template/report.php:192
+msgid "Reason Type"
+msgstr ""
+
+#: admin/report/index.php:220 template/report.php:220
+msgid "2. Perfomance Report"
+msgstr ""
+
+#: admin/report/index.php:224 template/report.php:224
+msgid " Perfomance Title"
+msgstr ""
+
+#: admin/report/index.php:225 template/report.php:225
+msgid "Perfomance Mark"
+msgstr ""
+
+#: admin/report/index.php:227 template/report.php:227
+msgid "Perfomance Description "
+msgstr ""
+
+#: admin/report/index.php:246 template/report.php:246
+msgid "3. Skill Report"
+msgstr ""
+
+#: admin/report/index.php:295 template/report.php:287
+msgid "4. Project Report"
+msgstr ""
+
+#: admin/report/index.php:299 template/report.php:291
+msgid "Project Title "
+msgstr ""
+
+#: admin/report/index.php:304 template/report.php:296
+msgid "Actual Status"
+msgstr ""
+
+#: admin/report/index.php:329 template/report.php:316
+msgid "4. Client Feedback Report"
+msgstr ""
+
+#: admin/report/index.php:333 template/report.php:320
+msgid "Client Name "
+msgstr ""
+
+#: admin/requirements/add_candidate.php:31
+#: template/requirment/add_candidate.php:33
+msgid "Job Field"
+msgstr ""
+
+#: admin/requirements/add_candidate.php:34
+#: admin/requirements/candidate_list.php:22
+#: admin/requirements/candidate_list.php:24
+#: template/requirment/add_candidate.php:36
+#: template/requirment/candidate_list.php:22
+#: template/requirment/candidate_list.php:24
+#: template/requirment/shortlist_candidates.php:5
+#: template/requirment/shortlist_candidates.php:7
+msgid "Select Job"
+msgstr ""
+
+#: admin/requirements/add_candidate.php:58
+msgid "Select Criteria "
+msgstr ""
+
+#: admin/requirements/add_candidate.php:61
+#: admin/requirements/candidate_list.php:41
+#: template/requirment/add_candidate.php:58
+#: template/requirment/add_candidate.php:61
+#: template/requirment/candidate_list.php:41
+#: template/requirment/shortlist_candidates.php:22
+msgid "Select Criteria"
+msgstr ""
+
+#: admin/requirements/add_candidate.php:80 admin/user/add_accountant.php:58
+#: admin/user/add_employee.php:67 admin/user/add_hr.php:62
+#: template/requirment/add_candidate.php:75 template/user/add_accountant.php:95
+#: template/user/add_employee.php:65 template/user/add_hr.php:89
+msgid "First Name"
+msgstr ""
+
+#: admin/requirements/add_candidate.php:86 admin/user/add_accountant.php:64
+#: admin/user/add_employee.php:73 admin/user/add_hr.php:68
+#: template/requirment/add_candidate.php:81
+#: template/user/add_accountant.php:101 template/user/add_employee.php:71
+#: template/user/add_hr.php:95
+msgid "Middle Name"
+msgstr ""
+
+#: admin/requirements/add_candidate.php:92 admin/user/add_accountant.php:70
+#: admin/user/add_employee.php:79 admin/user/add_hr.php:74
+#: template/requirment/add_candidate.php:87
+#: template/user/add_accountant.php:107 template/user/add_employee.php:77
+#: template/user/add_hr.php:101
+msgid "Last Name"
+msgstr ""
+
+#: admin/requirements/add_candidate.php:99 admin/user/add_accountant.php:76
+#: admin/user/add_employee.php:111 admin/user/add_hr.php:80
+#: admin/user/view_employee.php:75 template/requirment/add_candidate.php:94
+#: template/user/add_accountant.php:113 template/user/add_employee.php:107
+#: template/user/add_hr.php:107 template/user/view_employee.php:77
+msgid "Gender"
+msgstr ""
+
+#: admin/requirements/add_candidate.php:103 admin/user/add_accountant.php:80
+#: admin/user/add_employee.php:115 admin/user/add_hr.php:84
+#: template/requirment/add_candidate.php:98
+#: template/user/add_accountant.php:117 template/user/add_employee.php:111
+#: template/user/add_hr.php:111
+msgid "Male"
+msgstr ""
+
+#: admin/requirements/add_candidate.php:106 admin/user/add_accountant.php:83
+#: admin/user/add_employee.php:118 admin/user/add_hr.php:87
+#: template/requirment/add_candidate.php:101
+#: template/user/add_accountant.php:120 template/user/add_employee.php:114
+#: template/user/add_hr.php:114
+msgid "Female"
+msgstr ""
+
+#: admin/requirements/add_candidate.php:111 admin/user/add_accountant.php:88
+#: admin/user/add_employee.php:123 admin/user/add_hr.php:92
+#: template/requirment/add_candidate.php:106
+#: template/user/add_accountant.php:125 template/user/add_employee.php:119
+#: template/user/add_hr.php:119
+msgid "Date of birth"
+msgstr ""
+
+#: admin/requirements/add_candidate.php:118
+#: template/requirment/add_candidate.php:113
+msgid "Contact Information"
+msgstr ""
+
+#: admin/requirements/add_candidate.php:121 admin/user/add_employee.php:355
+#: admin/user/add_employee.php:409 admin/user/view_employee.php:107
+#: template/requirment/add_candidate.php:116 template/user/add_employee.php:351
+#: template/user/add_employee.php:404 template/user/view_employee.php:116
+msgid "Address"
+msgstr ""
+
+#: admin/requirements/add_candidate.php:128 admin/user/add_accountant.php:178
+#: admin/user/add_employee.php:362 admin/user/add_employee.php:416
+#: admin/user/add_hr.php:181 template/requirment/add_candidate.php:123
+#: template/user/add_accountant.php:215 template/user/add_employee.php:358
+#: template/user/add_employee.php:411 template/user/add_hr.php:208
+msgid "City"
+msgstr ""
+
+#: admin/requirements/add_candidate.php:135 admin/user/add_employee.php:369
+#: admin/user/add_employee.php:423 template/requirment/add_candidate.php:130
+#: template/user/add_employee.php:365 template/user/add_employee.php:418
+msgid "State"
+msgstr ""
+
+#: admin/requirements/add_candidate.php:167 admin/user/add_employee.php:399
+#: admin/user/add_employee.php:452 template/requirment/add_candidate.php:160
+#: template/user/add_employee.php:394 template/user/add_employee.php:446
+msgid "Zip Code"
+msgstr ""
+
+#: admin/requirements/add_candidate.php:181 admin/user/add_accountant.php:187
+#: admin/user/add_employee.php:308 admin/user/add_hr.php:190
+#: template/profile.php:211 template/requirment/add_candidate.php:174
+#: template/user/add_accountant.php:224 template/user/add_employee.php:304
+#: template/user/add_hr.php:217
+msgid "Mobile Number"
+msgstr ""
+
+#: admin/requirements/add_candidate.php:191
+#: template/requirment/add_candidate.php:184
+msgid "Phone Number"
+msgstr ""
+
+#: admin/requirements/add_candidate.php:197
+#: template/requirment/add_candidate.php:190
+msgid "Interests"
+msgstr ""
+
+#: admin/requirements/add_candidate.php:203
+#: template/requirment/add_candidate.php:196
+msgid "Achievements"
+msgstr ""
+
+#: admin/requirements/add_candidate.php:209
+#: template/requirment/add_candidate.php:202
+msgid "Notes"
+msgstr ""
+
+#: admin/requirements/add_candidate.php:215
+#: admin/requirements/candidate_list.php:104
+#: template/requirment/add_candidate.php:208
+#: template/requirment/candidate_list.php:104
+msgid "Curriculum"
+msgstr ""
+
+#: admin/requirements/add_candidate.php:223
+#: template/requirment/add_candidate.php:216
+#: template/requirment/shortlist_candidates.php:102
+msgid "Bio-Data"
+msgstr ""
+
+#: admin/requirements/add_candidate.php:229 template/requirements.php:147
+#: template/requirment/add_candidate.php:222
+msgid "Add Candidate"
+msgstr ""
+
+#: admin/requirements/add_job.php:33 admin/requirements/index.php:191
+#: admin/requirements/index.php:202 hrmgt-ajax-function.php:1362
+#: template/requirements.php:167 template/requirements.php:178
+#: template/requirements.php:260
+msgid "Job Title"
+msgstr ""
+
+#: admin/requirements/add_job.php:67 admin/user/add_accountant.php:134
+#: admin/user/add_employee.php:269 admin/user/add_hr.php:139
+#: template/requirements.php:295 template/user/add_accountant.php:171
+#: template/user/add_employee.php:265 template/user/add_hr.php:166
+msgid "Select Designation"
+msgstr ""
+
+#: admin/requirements/add_job.php:102 template/requirements.php:331
+msgid "Open"
+msgstr ""
+
+#: admin/requirements/add_job.php:103 template/requirements.php:332
+msgid "Close"
+msgstr ""
+
+#: admin/requirements/add_job.php:110 template/requirements.php:339
+msgid "Number of Positions "
+msgstr ""
+
+#: admin/requirements/add_job.php:116 admin/requirements/index.php:195
+#: admin/requirements/index.php:206 hrmgt-ajax-function.php:1378
+#: template/requirements.php:171 template/requirements.php:182
+#: template/requirements.php:345
+msgid "Job Post Closing Date"
+msgstr ""
+
+#: admin/requirements/add_job.php:137 admin/requirements/add_job.php:152
+#: template/requirements.php:379
+msgid "Criteria "
+msgstr ""
+
+#: admin/requirements/add_job.php:167 admin/skill_matrix/add_skill.php:176
+#: template/requirements.php:394 template/skill_metrix.php:292
+msgid "Add More Entry"
+msgstr ""
+
+#: admin/requirements/add_job.php:174 template/requirements.php:401
+msgid "Add Job"
+msgstr ""
+
+#: admin/requirements/candidate_list.php:39
+#: template/requirment/candidate_list.php:39
+#: template/requirment/shortlist_candidates.php:20
+msgid "Select Shortlist"
+msgstr ""
+
+#: admin/requirements/candidate_list.php:64
+#: admin/requirements/candidate_list.php:74
+#: template/requirment/candidate_list.php:64
+#: template/requirment/candidate_list.php:74
+#: template/requirment/shortlist_candidates.php:62
+#: template/requirment/shortlist_candidates.php:72
+msgid "Candidate Name"
+msgstr ""
+
+#: admin/requirements/candidate_list.php:66
+#: admin/requirements/candidate_list.php:76
+#: template/requirment/candidate_list.php:66
+#: template/requirment/candidate_list.php:76
+msgid "Apply for Job"
+msgstr ""
+
+#: admin/requirements/candidate_list.php:67
+#: admin/requirements/candidate_list.php:77
+#: template/requirment/candidate_list.php:67
+#: template/requirment/candidate_list.php:77
+#: template/requirment/shortlist_candidates.php:65
+#: template/requirment/shortlist_candidates.php:75
+msgid "Mobile"
+msgstr ""
+
+#: admin/requirements/candidate_list.php:68
+#: admin/requirements/candidate_list.php:78
+#: template/requirment/candidate_list.php:68
+#: template/requirment/candidate_list.php:78
+#: template/requirment/shortlist_candidates.php:66
+#: template/requirment/shortlist_candidates.php:76
+msgid "Criteria"
+msgstr ""
+
+#: admin/requirements/index.php:93
+msgid "Job successfully Added"
+msgstr ""
+
+#: admin/requirements/index.php:99
+msgid "Job  successfully updated ."
+msgstr ""
+
+#: admin/requirements/index.php:104
+msgid "Job  successfully archived "
+msgstr ""
+
+#: admin/requirements/index.php:109
+msgid "Candidate  successfully Added "
+msgstr ""
+
+#: admin/requirements/index.php:115
+msgid "Candidate  successfully updated "
+msgstr ""
+
+#: admin/requirements/index.php:122
+msgid "Candidate  successfully deleted "
+msgstr ""
+
+#: admin/requirements/index.php:136 template/requirements.php:110
+msgid "Job List"
+msgstr ""
+
+#: admin/requirements/index.php:141 template/requirements.php:117
+msgid "Edit Job"
+msgstr ""
+
+#: admin/requirements/index.php:147
+msgid "Add New Job"
+msgstr ""
+
+#: admin/requirements/index.php:151
+msgid "Job Candidates"
+msgstr ""
+
+#: admin/requirements/index.php:156 template/requirements.php:140
+msgid "Edit Candidate"
+msgstr ""
+
+#: admin/requirements/index.php:162
+msgid "Add New Candidate"
+msgstr ""
+
+#: admin/requirements/index.php:194 admin/requirements/index.php:205
+#: hrmgt-ajax-function.php:1374 template/requirements.php:170
+#: template/requirements.php:181
+msgid "No of Positions"
+msgstr ""
+
+#: admin/skill_matrix/add_skill.php:84 template/skill_metrix.php:201
+msgid " Skill Start Date"
+msgstr ""
+
+#: admin/skill_matrix/add_skill.php:92 template/skill_metrix.php:209
+msgid "Skill End Date"
+msgstr ""
+
+#: admin/skill_matrix/add_skill.php:182 template/skill_metrix.php:298
+msgid "Add Skill"
+msgstr ""
+
+#: admin/skill_matrix/index.php:37 template/skill_metrix.php:30
+msgid "Skill insert successfully"
+msgstr ""
+
+#: admin/skill_matrix/index.php:39 template/skill_metrix.php:32
+msgid "Skill update successfully."
+msgstr ""
+
+#: admin/skill_matrix/index.php:41
+msgid "Skill delete successfully"
+msgstr ""
+
+#: admin/skill_matrix/index.php:51
+msgid "View Skill"
+msgstr ""
+
+#: admin/skill_matrix/index.php:56
+msgid "Edit Skill"
+msgstr ""
+
+#: admin/skill_matrix/index.php:62 template/skill_metrix.php:53
+msgid "Add Skill Matrix"
+msgstr ""
+
+#: admin/travel/add_travel.php:47 template/travel.php:218
+msgid "Travel Information"
+msgstr ""
+
+#: admin/travel/add_travel.php:72 template/travel.php:243
+msgid "Purpose To Visit"
+msgstr ""
+
+#: admin/travel/add_travel.php:78 template/travel.php:249
+msgid "Travel Dates"
+msgstr ""
+
+#: admin/travel/add_travel.php:93 template/travel.php:264
+msgid "Travel Budget"
+msgstr ""
+
+#: admin/travel/add_travel.php:96 template/travel.php:267
+msgid "Expected Travel Budget"
+msgstr ""
+
+#: admin/travel/add_travel.php:102 template/travel.php:273
+msgid "Actual Travel Budget"
+msgstr ""
+
+#: admin/travel/add_travel.php:108 template/travel.php:279
+msgid "Travel Destinations"
+msgstr ""
+
+#: admin/travel/add_travel.php:131 admin/travel/add_travel.php:165
+#: template/travel.php:302 template/travel.php:336
+msgid "Travel Destination"
+msgstr ""
+
+#: admin/travel/add_travel.php:138 template/travel.php:309
+msgid "Select Travel Mode"
+msgstr ""
+
+#: admin/travel/add_travel.php:199 template/travel.php:370
+msgid "Add New"
+msgstr ""
+
+#: admin/travel/add_travel.php:210 template/travel.php:89
+#: template/travel.php:381
+msgid "Add Travel"
+msgstr ""
+
+#: admin/travel/index.php:46
+msgid "Travel insert successfully"
+msgstr ""
+
+#: admin/travel/index.php:53
+msgid "Travel update successfully."
+msgstr ""
+
+#: admin/travel/index.php:62
+msgid "Travel delete successfully"
+msgstr ""
+
+#: admin/travel/index.php:76
+msgid "Travels List"
+msgstr ""
+
+#: admin/travel/index.php:81 template/travel.php:83
+msgid "Edit Travel"
+msgstr ""
+
+#: admin/travel/index.php:87
+msgid "Add New Travel"
+msgstr ""
+
+#: admin/travel/index.php:116 admin/travel/index.php:126
+#: template/travel.php:108 template/travel.php:118
+msgid "Travel Purpose"
+msgstr ""
+
+#: admin/travel/index.php:117 admin/travel/index.php:127
+#: hrmgt-ajax-function.php:1417 hrmgt-ajax-function.php:1476
+#: template/travel.php:109 template/travel.php:119
+msgid "Travel Start Date"
+msgstr ""
+
+#: admin/travel/index.php:118 admin/travel/index.php:128
+#: hrmgt-ajax-function.php:1421 hrmgt-ajax-function.php:1480
+#: template/travel.php:110 template/travel.php:120
+msgid "Travel End Date"
+msgstr ""
+
+#: admin/travel/index.php:129
+msgid "Description "
+msgstr ""
+
+#: admin/user/accountantlist.php:41 admin/user/accountantlist.php:51
+#: admin/user/all_user.php:30 admin/user/all_user.php:40
+#: admin/user/hr_list.php:41 admin/user/hr_list.php:52 admin/user/index.php:561
+#: admin/user/index.php:571 hrmgt-ajax-function.php:484
+#: hrmgt-ajax-function.php:562 hrmgt-ajax-function.php:929
+#: hrmgt-ajax-function.php:1001 template/user.php:606 template/user.php:616
+#: template/user/accountantlist.php:41 template/user/accountantlist.php:51
+#: template/user/all_user.php:31 template/user/all_user.php:41
+#: template/user/hr_list.php:38 template/user/hr_list.php:51
+#: template/user/index.php:312 template/user/index.php:322
+msgid "Photo"
+msgstr ""
+
+#: admin/user/accountantlist.php:42 admin/user/accountantlist.php:52
+#: template/user/accountantlist.php:42 template/user/accountantlist.php:52
+msgid "Accountant Name"
+msgstr ""
+
+#: admin/user/accountantlist.php:43 admin/user/accountantlist.php:53
+#: template/user/add_accountant.php:83
+msgid "Accountant Code"
+msgstr ""
+
+#: admin/user/accountantlist.php:44 template/user/accountantlist.php:44
+msgid "Accountant  Email"
+msgstr ""
+
+#: admin/user/accountantlist.php:45 admin/user/accountantlist.php:55
+#: admin/user/hr_list.php:46 admin/user/hr_list.php:57
+#: admin/user/view_employee.php:67 template/user/accountantlist.php:45
+#: template/user/accountantlist.php:55 template/user/hr_list.php:43
+#: template/user/hr_list.php:56 template/user/view_employee.php:69
+msgid "Mobile No"
+msgstr ""
+
+#: admin/user/accountantlist.php:54 template/user/accountantlist.php:54
+msgid " Accountant Email"
+msgstr ""
+
+#: admin/user/accountantlist.php:91 admin/user/hr_list.php:89
+#: template/user/accountantlist.php:95 template/user/hr_list.php:96
+msgid "Do you really want to delete this record?"
+msgstr ""
+
+#: admin/user/add_accountant.php:46 admin/user/add_employee.php:55
+#: admin/user/add_hr.php:50 admin/user/index.php:563 admin/user/index.php:573
+#: template/user.php:608 template/user.php:618
+#: template/user/add_employee.php:53 template/user/index.php:314
+#: template/user/index.php:324
+msgid "Employee Code"
+msgstr ""
+
+#: admin/user/add_accountant.php:158 admin/user/add_employee.php:293
+#: template/user/add_accountant.php:195 template/user/add_employee.php:289
+msgid "Employee Salary"
+msgstr ""
+
+#: admin/user/add_accountant.php:166 admin/user/add_hr.php:172
+#: template/user/add_accountant.php:203 template/user/add_hr.php:199
+msgid "Home Town Address"
+msgstr ""
+
+#: admin/user/add_accountant.php:198 admin/user/add_hr.php:201
+#: template/user/add_accountant.php:235 template/user/add_hr.php:228
+msgid "Phone"
+msgstr ""
+
+#: admin/user/add_accountant.php:207 admin/user/add_employee.php:300
+#: admin/user/add_hr.php:209 template/user/add_accountant.php:244
+#: template/user/add_employee.php:296 template/user/add_hr.php:236
+msgid "Qualification"
+msgstr ""
+
+#: admin/user/add_accountant.php:223 admin/user/add_employee.php:87
+#: admin/user/add_hr.php:225 admin/user/all_user.php:31
+#: admin/user/all_user.php:41 admin/user/view_employee.php:79
+#: template/user/add_accountant.php:260 template/user/add_employee.php:84
+#: template/user/add_hr.php:252 template/user/all_user.php:32
+#: template/user/all_user.php:42 template/user/view_employee.php:81
+msgid "User Name"
+msgstr ""
+
+#: admin/user/add_accountant.php:230 admin/user/add_employee.php:94
+#: admin/user/add_hr.php:232 settings.php:334
+#: template/user/add_accountant.php:267 template/user/add_employee.php:91
+#: template/user/add_hr.php:259
+msgid "Password"
+msgstr ""
+
+#: admin/user/add_accountant.php:236 admin/user/add_employee.php:700
+#: admin/user/add_hr.php:238 template/user/add_accountant.php:278
+#: template/user/add_employee.php:694 template/user/add_hr.php:268
+msgid "Image"
+msgstr ""
+
+#: admin/user/add_accountant.php:272 admin/user/add_user.php:7
+#: admin/user/index.php:511 template/user.php:557
+#: template/user/add_accountant.php:304 template/user/add_user.php:9
+#: template/user/index.php:275
+msgid "Add Accountant"
+msgstr ""
+
+#: admin/user/add_employee.php:52 template/user/add_employee.php:50
+msgid "Employee Information"
+msgstr ""
+
+#: admin/user/add_employee.php:130 template/user/add_employee.php:126
+msgid "Marital Status "
+msgstr ""
+
+#: admin/user/add_employee.php:133 template/user/add_employee.php:129
+msgid "Select Marital Status "
+msgstr ""
+
+#: admin/user/add_employee.php:141 template/user/add_employee.php:137
+msgid "Single"
+msgstr ""
+
+#: admin/user/add_employee.php:142 template/user/add_employee.php:138
+msgid "Married"
+msgstr ""
+
+#: admin/user/add_employee.php:143 template/user/add_employee.php:139
+msgid "Divorced"
+msgstr ""
+
+#: admin/user/add_employee.php:144 template/user/add_employee.php:140
+msgid "Separated"
+msgstr ""
+
+#: admin/user/add_employee.php:145 template/user/add_employee.php:141
+msgid "Widowed"
+msgstr ""
+
+#: admin/user/add_employee.php:146 template/user/add_employee.php:142
+msgid "In A Relationship"
+msgstr ""
+
+#: admin/user/add_employee.php:147 template/user/add_employee.php:143
+msgid "Engaged"
+msgstr ""
+
+#: admin/user/add_employee.php:152 template/user/add_employee.php:148
+msgid "Blood Group"
+msgstr ""
+
+#: admin/user/add_employee.php:156 template/user/add_employee.php:152
+msgid "Select Blood Group"
+msgstr ""
+
+#: admin/user/add_employee.php:167 template/user/add_employee.php:163
+msgid "Working Status "
+msgstr ""
+
+#: admin/user/add_employee.php:177 admin/user/index.php:549
+#: template/user.php:591 template/user/add_employee.php:173
+msgid "Working"
+msgstr ""
+
+#: admin/user/add_employee.php:178 admin/user/index.php:550
+#: template/user.php:592 template/user/add_employee.php:174
+msgid "Left"
+msgstr ""
+
+#: admin/user/add_employee.php:179 admin/user/index.php:551
+#: template/user.php:593 template/user/add_employee.php:175
+msgid "Resign"
+msgstr ""
+
+#: admin/user/add_employee.php:203 template/user/add_employee.php:199
+msgid "Deposit"
+msgstr ""
+
+#: admin/user/add_employee.php:211 template/user/add_employee.php:207
+msgid "Employee Level"
+msgstr ""
+
+#: admin/user/add_employee.php:214 template/user/add_employee.php:210
+msgid "Trainee"
+msgstr ""
+
+#: admin/user/add_employee.php:215 template/user/add_employee.php:211
+msgid "Full Time"
+msgstr ""
+
+#: admin/user/add_employee.php:216 template/user/add_employee.php:212
+msgid "Probation"
+msgstr ""
+
+#: admin/user/add_employee.php:222 template/user/add_employee.php:218
+msgid "Term Detail"
+msgstr ""
+
+#: admin/user/add_employee.php:230 template/user/add_employee.php:226
+msgid "Monthly leave"
+msgstr ""
+
+#: admin/user/add_employee.php:319 template/user/add_employee.php:315
+msgid "Government Id / Social Security"
+msgstr ""
+
+#: admin/user/add_employee.php:325 template/user/add_employee.php:321
+msgid "Passport Number "
+msgstr ""
+
+#: admin/user/add_employee.php:331 template/user/add_employee.php:327
+msgid "Passport Expiration"
+msgstr ""
+
+#: admin/user/add_employee.php:337 template/user/add_employee.php:333
+msgid "Driving License Number "
+msgstr ""
+
+#: admin/user/add_employee.php:343 template/user/add_employee.php:339
+msgid "Driving License Expiration"
+msgstr ""
+
+#: admin/user/add_employee.php:352 template/user/add_employee.php:348
+msgid "Permanent Contact Information"
+msgstr ""
+
+#: admin/user/add_employee.php:406 template/user/add_employee.php:401
+msgid "Present Contact Information"
+msgstr ""
+
+#: admin/user/add_employee.php:463 template/user/add_employee.php:457
+msgid "Employee Earning Details"
+msgstr ""
+
+#: admin/user/add_employee.php:466 template/user/add_employee.php:460
+msgid "Dearness Allowance (D.A.) "
+msgstr ""
+
+#: admin/user/add_employee.php:472 admin/user/add_employee.php:484
+#: admin/user/add_employee.php:496 admin/user/add_employee.php:508
+#: admin/user/add_employee.php:520 admin/user/add_employee.php:532
+#: admin/user/add_employee.php:544 admin/user/add_employee.php:556
+#: admin/user/add_employee.php:568 admin/user/add_employee.php:598
+#: admin/user/add_employee.php:610 admin/user/add_employee.php:622
+#: admin/user/add_employee.php:636 template/user/add_employee.php:466
+#: template/user/add_employee.php:478 template/user/add_employee.php:490
+#: template/user/add_employee.php:502 template/user/add_employee.php:514
+#: template/user/add_employee.php:526 template/user/add_employee.php:538
+#: template/user/add_employee.php:550 template/user/add_employee.php:562
+#: template/user/add_employee.php:595 template/user/add_employee.php:607
+#: template/user/add_employee.php:619 template/user/add_employee.php:631
+msgid "Visible"
+msgstr ""
+
+#: admin/user/add_employee.php:473 admin/user/add_employee.php:485
+#: admin/user/add_employee.php:497 admin/user/add_employee.php:509
+#: admin/user/add_employee.php:521 admin/user/add_employee.php:533
+#: admin/user/add_employee.php:545 admin/user/add_employee.php:557
+#: admin/user/add_employee.php:569 admin/user/add_employee.php:599
+#: admin/user/add_employee.php:611 admin/user/add_employee.php:623
+#: admin/user/add_employee.php:637 template/user/add_employee.php:467
+#: template/user/add_employee.php:479 template/user/add_employee.php:491
+#: template/user/add_employee.php:503 template/user/add_employee.php:515
+#: template/user/add_employee.php:527 template/user/add_employee.php:539
+#: template/user/add_employee.php:551 template/user/add_employee.php:563
+#: template/user/add_employee.php:596 template/user/add_employee.php:608
+#: template/user/add_employee.php:620 template/user/add_employee.php:632
+msgid "Hidden"
+msgstr ""
+
+#: admin/user/add_employee.php:478 template/user/add_employee.php:472
+msgid "House Rent Allowance (H.R.A.) "
+msgstr ""
+
+#: admin/user/add_employee.php:490 template/user/add_employee.php:484
+msgid "Conveyanc_Allowance"
+msgstr ""
+
+#: admin/user/add_employee.php:550 template/payslip/custom_slip.php:141
+msgid "Perfomance Incentives"
+msgstr ""
+
+#: admin/user/add_employee.php:589 template/user/add_employee.php:586
+msgid "Employee Deduction Detail"
+msgstr ""
+
+#: admin/user/add_employee.php:660 template/user/add_employee.php:653
+msgid "Bank Account Details"
+msgstr ""
+
+#: admin/user/add_employee.php:663 template/user/add_employee.php:656
+msgid "Account Holder Name"
+msgstr ""
+
+#: admin/user/add_employee.php:669 template/user/add_employee.php:662
+msgid "Account Number"
+msgstr ""
+
+#: admin/user/add_employee.php:675 template/user/add_employee.php:668
+msgid "Bank Name"
+msgstr ""
+
+#: admin/user/add_employee.php:681 template/user/add_employee.php:674
+msgid "IFSC Code"
+msgstr ""
+
+#: admin/user/add_employee.php:687 template/user/add_employee.php:680
+msgid "PAN Number"
+msgstr ""
+
+#: admin/user/add_employee.php:693 template/user/add_employee.php:686
+msgid "Branch"
+msgstr ""
+
+#: admin/user/add_employee.php:732 template/user/add_employee.php:721
+msgid "Employee Documents"
+msgstr ""
+
+#: admin/user/add_employee.php:736 template/user/add_employee.php:725
+msgid "Joining Letter"
+msgstr ""
+
+#: admin/user/add_employee.php:744 template/user/add_employee.php:733
+msgid "Joining Latter"
+msgstr ""
+
+#: admin/user/add_employee.php:749 admin/user/add_employee.php:756
+#: template/user/add_employee.php:738 template/user/add_employee.php:745
+msgid "CV"
+msgstr ""
+
+#: admin/user/add_employee.php:761 admin/user/add_employee.php:768
+#: template/user/add_employee.php:750 template/user/add_employee.php:757
+msgid "Contract"
+msgstr ""
+
+#: admin/user/add_employee.php:773 template/user/add_employee.php:762
+msgid "ID proof"
+msgstr ""
+
+#: admin/user/add_employee.php:780 template/user/add_employee.php:769
+msgid "ID Proof"
+msgstr ""
+
+#: admin/user/add_employee.php:846 template/user/add_employee.php:836
+msgid "Add More Certificate"
+msgstr ""
+
+#: admin/user/add_employee.php:849 admin/user/add_user.php:5
+#: admin/user/index.php:509 template/user.php:547
+#: template/user/add_employee.php:840 template/user/add_user.php:7
+#: template/user/index.php:273
+msgid "Add Employee"
+msgstr ""
+
+#: admin/user/add_hr.php:163 template/user/add_hr.php:190
+msgid "HR Manager Salary"
+msgstr ""
+
+#: admin/user/add_hr.php:273 admin/user/add_user.php:6 admin/user/index.php:507
+#: template/user.php:552 template/user/add_hr.php:294
+#: template/user/add_user.php:8 template/user/index.php:271
+msgid "Add HR Manager"
+msgstr ""
+
+#: admin/user/all_user.php:32 admin/user/all_user.php:42
+#: template/user/all_user.php:33 template/user/all_user.php:43
+msgid "User Code"
+msgstr ""
+
+#: admin/user/all_user.php:33 admin/user/all_user.php:43
+#: template/user/all_user.php:34 template/user/all_user.php:44
+msgid "User  Email"
+msgstr ""
+
+#: admin/user/all_user.php:34 admin/user/all_user.php:44
+#: template/user/all_user.php:35 template/user/all_user.php:45
+msgid "User Role"
+msgstr ""
+
+#: admin/user/hr_list.php:42 admin/user/hr_list.php:53
+#: template/user/hr_list.php:39 template/user/hr_list.php:52
+msgid "HR Manager Name"
+msgstr ""
+
+#: admin/user/hr_list.php:44 admin/user/hr_list.php:54
+msgid "HR Manager Code"
+msgstr ""
+
+#: admin/user/hr_list.php:45 admin/user/hr_list.php:56
+#: template/user/hr_list.php:42 template/user/hr_list.php:55
+msgid "HR Manager Email"
+msgstr ""
+
+#: admin/user/index.php:354 admin/user/index.php:393 template/user.php:374
+#: template/user.php:420 template/user/index.php:137
+#: template/user/index.php:167
+msgid "Username Or Email id exists already."
+msgstr ""
+
+#: admin/user/index.php:422 template/user.php:444
+msgid "Employee insert successfully"
+msgstr ""
+
+#: admin/user/index.php:427
+msgid "CSV file Imported successfully"
+msgstr ""
+
+#: admin/user/index.php:432 template/user.php:449
+msgid "Employee update successfully."
+msgstr ""
+
+#: admin/user/index.php:437
+msgid "Docunent Upload error."
+msgstr ""
+
+#: admin/user/index.php:442 template/user.php:454
+msgid "Employee delete successfully"
+msgstr ""
+
+#: admin/user/index.php:448 template/user.php:460
+msgid "HR Manager insert successfully"
+msgstr ""
+
+#: admin/user/index.php:453
+msgid "HR Manager update successfully."
+msgstr ""
+
+#: admin/user/index.php:458 template/user.php:475
+msgid "HR Manager delete successfully"
+msgstr ""
+
+#: admin/user/index.php:464 template/user.php:482
+msgid "Accountant insert successfully"
+msgstr ""
+
+#: admin/user/index.php:469 template/user.php:487
+msgid "Accountant update successfully."
+msgstr ""
+
+#: admin/user/index.php:474 template/user.php:492
+msgid "Accountant delete successfully"
+msgstr ""
+
+#: admin/user/index.php:485 template/user/index.php:249
+msgid "Manage  User"
+msgstr ""
+
+#: admin/user/index.php:493
+msgid "Employee List"
+msgstr ""
+
+#: admin/user/index.php:496 template/user/index.php:260
+msgid "HR Manager List"
+msgstr ""
+
+#: admin/user/index.php:499 template/user/index.php:263
+msgid "Accountant List"
+msgstr ""
+
+#: admin/user/index.php:502 template/user/index.php:266
+msgid "Edit User"
+msgstr ""
+
+#: admin/user/index.php:513 template/user.php:562 template/user/index.php:277
+msgid "Add User"
+msgstr ""
+
+#: admin/user/index.php:518 template/user.php:532
+msgid "Upload Employee"
+msgstr ""
+
+#: admin/user/upload_emp.php:43 template/user/upload_emp.php:43
+msgid "CSV"
+msgstr ""
+
+#: admin/user/upload_emp.php:49 template/user/upload_emp.php:49
+msgid "Import Employee"
+msgstr ""
+
+#: admin/user/view_employee.php:71 fronted_template.php:445
+#: template/user/view_employee.php:73
+msgid "Date Of Birth"
+msgstr ""
+
+#: admin/user/view_employee.php:83 template/user/view_employee.php:90
+msgid " Edit Experience Letter"
+msgstr ""
+
+#: admin/user/view_employee.php:84 template/user/view_employee.php:94
+msgid " View Experience Letter"
+msgstr ""
+
+#: admin/user/view_employee.php:98 template/user/view_employee.php:107
+msgid "More Info"
+msgstr ""
+
+#: admin/user/view_employee.php:103 template/user/view_employee.php:112
+msgid "Education"
+msgstr ""
+
+#: admin/user/view_employee.php:111 template/user/view_employee.php:120
+msgid "Join Date"
+msgstr ""
+
+#: admin/user/view_employee.php:115 template/user/view_employee.php:124
+msgid "Salary"
+msgstr ""
+
+#: admin/user/view_employee.php:120 template/user/view_employee.php:129
+msgid "Working Since"
+msgstr ""
+
+#: admin/user/view_employee.php:154 template/user/view_employee.php:156
+msgid "Employee Attendance "
+msgstr ""
+
+#: admin/user/view_employee.php:166 template/user/view_employee.php:168
+msgid "There is not enough data to generate report."
+msgstr ""
+
+#: fronted_template.php:230
+msgid "My Profile"
+msgstr ""
+
+#: fronted_template.php:231
+msgid "Log Out"
+msgstr ""
+
+#: fronted_template.php:248
+msgid "Home"
+msgstr ""
+
+#: fronted_template.php:340
+msgid "Punch Details"
+msgstr ""
+
+#: fronted_template.php:379
+msgid "Dayin"
+msgstr ""
+
+#: fronted_template.php:380 fronted_template.php:381
+msgid "Dayout"
+msgstr ""
+
+#: hrmgt-ajax-function.php:50
+msgid "title"
+msgstr ""
+
+#: hrmgt-ajax-function.php:51
+msgid "header"
+msgstr ""
+
+#: hrmgt-ajax-function.php:52
+msgid "Add category"
+msgstr ""
+
+#: hrmgt-ajax-function.php:53
+msgid "category Name"
+msgstr ""
+
+#: hrmgt-ajax-function.php:60
+msgid "Add Department Name"
+msgstr ""
+
+#: hrmgt-ajax-function.php:67 hrmgt-ajax-function.php:69
+msgid "Add Unit Category"
+msgstr ""
+
+#: hrmgt-ajax-function.php:68 hrmgt-ajax-function.php:70
+msgid "Unit Category Name"
+msgstr ""
+
+#: hrmgt-ajax-function.php:75 hrmgt-ajax-function.php:77
+msgid "Add Leave Type"
+msgstr ""
+
+#: hrmgt-ajax-function.php:76 hrmgt-ajax-function.php:78
+msgid "Leave Type Name"
+msgstr ""
+
+#: hrmgt-ajax-function.php:83 hrmgt-ajax-function.php:85
+msgid "Task Name"
+msgstr ""
+
+#: hrmgt-ajax-function.php:90 hrmgt-ajax-function.php:92
+msgid "Add Policy Type"
+msgstr ""
+
+#: hrmgt-ajax-function.php:91 hrmgt-ajax-function.php:93
+msgid "Policy Type Name"
+msgstr ""
+
+#: hrmgt-ajax-function.php:98 hrmgt-ajax-function.php:100
+msgid "Add Training Type"
+msgstr ""
+
+#: hrmgt-ajax-function.php:99 hrmgt-ajax-function.php:101
+msgid "Training Type Name"
+msgstr ""
+
+#: hrmgt-ajax-function.php:107 hrmgt-ajax-function.php:109
+msgid "Assets Name"
+msgstr ""
+
+#: hrmgt-ajax-function.php:115 hrmgt-ajax-function.php:117
+msgid "Add Designation"
+msgstr ""
+
+#: hrmgt-ajax-function.php:116 hrmgt-ajax-function.php:118
+msgid "Designation Name"
+msgstr ""
+
+#: hrmgt-ajax-function.php:124
+msgid "Training Subject Name"
+msgstr ""
+
+#: hrmgt-ajax-function.php:125
+msgid "Add Subject"
+msgstr ""
+
+#: hrmgt-ajax-function.php:126
+msgid "Subject Name"
+msgstr ""
+
+#: hrmgt-ajax-function.php:272 hrmgt-ajax-function.php:1255
+msgid "Address :"
+msgstr ""
+
+#: hrmgt-ajax-function.php:273 hrmgt-ajax-function.php:1256
+msgid "Email :"
+msgstr ""
+
+#: hrmgt-ajax-function.php:274 hrmgt-ajax-function.php:1257
+msgid "Official Phone Number :"
+msgstr ""
+
+#: hrmgt-ajax-function.php:375
+msgid "FAQ Detail"
+msgstr ""
+
+#: hrmgt-ajax-function.php:380 hrmgt-ajax-function.php:403
+#: hrmgt-ajax-function.php:539 hrmgt-ajax-function.php:600
+#: hrmgt-ajax-function.php:632 hrmgt-ajax-function.php:680
+#: hrmgt-ajax-function.php:718
+msgid " Title"
+msgstr ""
+
+#: hrmgt-ajax-function.php:384 hrmgt-ajax-function.php:411
+#: hrmgt-ajax-function.php:555 hrmgt-ajax-function.php:659
+#: hrmgt-ajax-function.php:700 hrmgt-ajax-function.php:735
+#: hrmgt-ajax-function.php:919 hrmgt-ajax-function.php:1444
+#: hrmgt-ajax-function.php:1507
+msgid " Description"
+msgstr ""
+
+#: hrmgt-ajax-function.php:397
+msgid "Policy Detail"
+msgstr ""
+
+#: hrmgt-ajax-function.php:407
+msgid " Status"
+msgstr ""
+
+#: hrmgt-ajax-function.php:481
+msgid "View Trainee List"
+msgstr ""
+
+#: hrmgt-ajax-function.php:510
+msgid "No Employees"
+msgstr ""
+
+#: hrmgt-ajax-function.php:528
+msgid "Perfomance Mark Detail"
+msgstr ""
+
+#: hrmgt-ajax-function.php:534
+msgid " Project"
+msgstr ""
+
+#: hrmgt-ajax-function.php:544
+msgid " Mark"
+msgstr ""
+
+#: hrmgt-ajax-function.php:550
+msgid " Performance Evaluation period"
+msgstr ""
+
+#: hrmgt-ajax-function.php:594
+msgid "Suggestion Detail"
+msgstr ""
+
+#: hrmgt-ajax-function.php:604
+msgid " Suggestion From"
+msgstr ""
+
+#: hrmgt-ajax-function.php:608
+msgid " Suggestion Date"
+msgstr ""
+
+#: hrmgt-ajax-function.php:612
+msgid " Suggestion"
+msgstr ""
+
+#: hrmgt-ajax-function.php:626
+msgid "Event Detail"
+msgstr ""
+
+#: hrmgt-ajax-function.php:649
+msgid " Event  Date"
+msgstr ""
+
+#: hrmgt-ajax-function.php:655
+msgid " Event Place"
+msgstr ""
+
+#: hrmgt-ajax-function.php:674
+msgid "Notice Detail"
+msgstr ""
+
+#: hrmgt-ajax-function.php:696
+msgid " Notice Date"
+msgstr ""
+
+#: hrmgt-ajax-function.php:713
+msgid "Complaint Detail"
+msgstr ""
+
+#: hrmgt-ajax-function.php:722
+msgid " Complaint Date"
+msgstr ""
+
+#: hrmgt-ajax-function.php:726
+msgid " Complaint Status"
+msgstr ""
+
+#: hrmgt-ajax-function.php:731
+msgid " Complaint From"
+msgstr ""
+
+#: hrmgt-ajax-function.php:763 hrmgt-ajax-function.php:1045
+msgid "Salary Date"
+msgstr ""
+
+#: hrmgt-ajax-function.php:773 hrmgt-ajax-function.php:1056
+msgid "Company"
+msgstr ""
+
+#: hrmgt-ajax-function.php:795 hrmgt-ajax-function.php:1081
+msgid "Payslip Entries"
+msgstr ""
+
+#: hrmgt-ajax-function.php:800
+msgid "Allowance"
+msgstr ""
+
+#: hrmgt-ajax-function.php:801 hrmgt-ajax-function.php:828
+#: hrmgt-ajax-function.php:1087 hrmgt-ajax-function.php:1115
+msgid "Price"
+msgstr ""
+
+#: hrmgt-ajax-function.php:854 hrmgt-ajax-function.php:1141
+msgid "Basic Salary :"
+msgstr ""
+
+#: hrmgt-ajax-function.php:859 hrmgt-ajax-function.php:1146
+msgid "Allowance :"
+msgstr ""
+
+#: hrmgt-ajax-function.php:863 hrmgt-ajax-function.php:1150
+msgid "Deduction :"
+msgstr ""
+
+#: hrmgt-ajax-function.php:873 hrmgt-ajax-function.php:1160
+msgid "Grand Total :"
+msgstr ""
+
+#: hrmgt-ajax-function.php:897
+msgid "Project Detail"
+msgstr ""
+
+#: hrmgt-ajax-function.php:911
+msgid " Project Start Date"
+msgstr ""
+
+#: hrmgt-ajax-function.php:915
+msgid " Project End Date"
+msgstr ""
+
+#: hrmgt-ajax-function.php:972
+msgid "Client Feedback Detail"
+msgstr ""
+
+#: hrmgt-ajax-function.php:990
+msgid " Ratting"
+msgstr ""
+
+#: hrmgt-ajax-function.php:1086
+msgid "Entry"
+msgstr ""
+
+#: hrmgt-ajax-function.php:1274
+msgid "Holiday Detail"
+msgstr ""
+
+#: hrmgt-ajax-function.php:1297
+msgid "Holiday Date "
+msgstr ""
+
+#: hrmgt-ajax-function.php:1317
+msgid "Task Detail"
+msgstr ""
+
+#: hrmgt-ajax-function.php:1333
+msgid "Work Start  Time"
+msgstr ""
+
+#: hrmgt-ajax-function.php:1337
+msgid "Work End Time"
+msgstr ""
+
+#: hrmgt-ajax-function.php:1355
+msgid "Requirement Detail"
+msgstr ""
+
+#: hrmgt-ajax-function.php:1405 hrmgt-ajax-function.php:1465
+msgid "Travel Detail"
+msgstr ""
+
+#: hrmgt-ajax-function.php:1413
+msgid "Visit Purpose"
+msgstr ""
+
+#: hrmgt-ajax-function.php:1425 hrmgt-ajax-function.php:1484
+msgid "Expected Budget"
+msgstr ""
+
+#: hrmgt-ajax-function.php:1429 hrmgt-ajax-function.php:1488
+msgid "Actual Budget"
+msgstr ""
+
+#: hrmgt-ajax-function.php:1433 hrmgt-ajax-function.php:1492
+msgid "Destination"
+msgstr ""
+
+#: hrmgt-ajax-function.php:1472
+msgid "Visit Perpose"
+msgstr ""
+
+#: hrmgt-ajax-function.php:1548
+msgid "CHANGE ATTENDANCE STATUS"
+msgstr ""
+
+#: hrmgt-ajax-function.php:1554
+msgid "Date : "
+msgstr ""
+
+#: hrmgt-ajax-function.php:1559
+msgid "Change To"
+msgstr ""
+
+#: hrmgt-ajax-function.php:1573
+msgid "Update"
+msgstr ""
+
+#: hrmgt-ajax-function.php:1582
+msgid "Leave Approve Comment"
+msgstr ""
+
+#: hrmgt-ajax-function.php:1598 hrmgt-ajax-function.php:1624
+msgid "Submit"
+msgstr ""
+
+#: hrmgt-ajax-function.php:1608
+msgid "Leave Reject Comment"
+msgstr ""
+
+#: settings.php:49
+msgid "Manager"
+msgstr ""
+
+#: settings.php:60
+msgid "WP HRM - Human Resource Management System"
+msgstr ""
+
+#: settings.php:254
+msgid "Wphrm Dashboard"
+msgstr ""
+
+#: settings.php:266
+msgid "WP HRM Login Page"
+msgstr ""
+
+#: settings.php:312
+msgid ""
+"Login failed: You have entered an incorrect Username or password, please try "
+"again."
+msgstr ""
+
+#: settings.php:323
+msgid "ERROR"
+msgstr ""
+
+#: settings.php:333 template/profile.php:161
+msgid "Username"
+msgstr ""
+
+#: settings.php:335
+msgid "Remember Me"
+msgstr ""
+
+#: settings.php:336
+msgid "Log In"
+msgstr ""
+
+#: settings.php:349
+msgid "Logout"
+msgstr ""
+
+#: settings.php:354
+msgid "Forgot your password?"
+msgstr ""
+
+#: settings.php:434
+msgid "Assets/Benefit"
+msgstr ""
+
+#: settings.php:440
+msgid "Performance Marks"
+msgstr ""
+
+#: settings.php:450
+msgid "Skill Metrix"
+msgstr ""
+
+#: settings.php:466
+msgid "Report "
+msgstr ""
+
+#: settings.php:468
+msgid "General "
+msgstr ""
+
+#: settings.php:470
+msgid "Mail Template "
+msgstr ""
+
+#: template/asset_benefit.php:67
+msgid "Asset List"
+msgstr ""
+
+#: template/asset_benefit.php:73
+msgid "Edit Asset"
+msgstr ""
+
+#: template/asset_benefit.php:79
+msgid "Add Asset"
+msgstr ""
+
+#: template/attendance/add_attendance_detail.php:254
+#: template/attendance/add_attendance_detail.php:303
+msgid "Pay. Days"
+msgstr ""
+
+#: template/client_feedback.php:48
+msgid "Client Feedback Delete successfully."
+msgstr ""
+
+#: template/department.php:40
+msgid "Department inserted successfully"
+msgstr ""
+
+#: template/earning_deduction.php:30
+msgid "Add Earning Deduction"
+msgstr ""
+
+#: template/employee_feedback.php:104
+msgid "suggestion inserted successfully"
+msgstr ""
+
+#: template/employee_feedback.php:106
+msgid "suggestion updated successfully."
+msgstr ""
+
+#: template/employee_feedback.php:108
+msgid "suggestion deleted successfully."
+msgstr ""
+
+#: template/employee_feedback.php:143
+msgid "suggestion List"
+msgstr ""
+
+#: template/employee_feedback.php:150
+msgid "Edit suggestion"
+msgstr ""
+
+#: template/employee_feedback.php:156
+msgid "Add suggestion"
+msgstr ""
+
+#: template/employee_feedback/add_suggestion.php:64
+msgid "suggestion Date"
+msgstr ""
+
+#: template/employee_training.php:44
+msgid "Training inserted successfully"
+msgstr ""
+
+#: template/employee_training.php:50
+msgid "Training updated successfully."
+msgstr ""
+
+#: template/employee_training.php:59
+msgid "Training deleted successfully"
+msgstr ""
+
+#: template/employee_training.php:83
+msgid "Edit  Training"
+msgstr ""
+
+#: template/employee_training.php:89
+msgid "Add  Training"
+msgstr ""
+
+#: template/employee_training.php:270
+msgid "Training Subject (Skill)"
+msgstr ""
+
+#: template/general/general-settings.php:15
+msgid "Record updated successfully"
+msgstr ""
+
+#: template/genral.php:257
+msgid "Time Schedule updated"
+msgstr ""
+
+#: template/genral.php:292
+msgid "Compay form list"
+msgstr ""
+
+#: template/mail_template.php:51
+msgid "Add Leave Email Template "
+msgstr ""
+
+#: template/mail_template.php:59 template/mail_template.php:110
+#: template/mail_template.php:161 template/mail_template.php:211
+#: template/mail_template.php:262
+msgid "Emails"
+msgstr ""
+
+#: template/mail_template.php:66 template/mail_template.php:117
+#: template/mail_template.php:168 template/mail_template.php:218
+#: template/mail_template.php:269
+msgid "Email Subject"
+msgstr ""
+
+#: template/mail_template.php:72
+msgid "Emails Sent to HR when employee add leave"
+msgstr ""
+
+#: template/mail_template.php:80
+msgid "Name of employee"
+msgstr ""
+
+#: template/mail_template.php:83
+msgid "Reson of the leave"
+msgstr ""
+
+#: template/mail_template.php:85
+msgid "Date of leave start"
+msgstr ""
+
+#: template/mail_template.php:86
+msgid "Date of leave end"
+msgstr ""
+
+#: template/mail_template.php:101
+msgid "Leave Approve Email Template "
+msgstr ""
+
+#: template/mail_template.php:123
+msgid "Emails Sent to Employee When A HR Add Approve Leave"
+msgstr ""
+
+#: template/mail_template.php:131
+msgid "The employee full name or login name (whatever is available)"
+msgstr ""
+
+#: template/mail_template.php:134
+msgid "Date of leave"
+msgstr ""
+
+#: template/mail_template.php:151
+msgid "Event Email Template "
+msgstr ""
+
+#: template/mail_template.php:174
+msgid "Emails Sent to all employee when HR add event"
+msgstr ""
+
+#: template/mail_template.php:182
+msgid "Date of event start"
+msgstr ""
+
+#: template/mail_template.php:183
+msgid "Date of event end"
+msgstr ""
+
+#: template/mail_template.php:201
+msgid "Registration  Email Template "
+msgstr ""
+
+#: template/mail_template.php:224
+msgid "Emails Sent to employee after employee registration"
+msgstr ""
+
+#: template/mail_template.php:233
+msgid "User name of employee"
+msgstr ""
+
+#: template/mail_template.php:252
+msgid "Training  Email Template "
+msgstr ""
+
+#: template/mail_template.php:275
+msgid "Emails Sent to employee when HR add new training"
+msgstr ""
+
+#: template/mail_template.php:287
+msgid "Date of training start"
+msgstr ""
+
+#: template/mail_template.php:288
+msgid "Date of training end"
+msgstr ""
+
+#: template/mail_template.php:315
+msgid "Experience Latter heding"
+msgstr ""
+
+#: template/mail_template.php:322
+msgid "Experience Subject"
+msgstr ""
+
+#: template/mail_template.php:329
+msgid "Experience Latter To"
+msgstr ""
+
+#: template/mail_template.php:338
+msgid "Cartificate content"
+msgstr ""
+
+#: template/message.php:50
+msgid "View Message"
+msgstr ""
+
+#: template/message/composemail.php:8
+msgid "Message Sent Successfully!"
+msgstr ""
+
+#: template/notice.php:67
+msgid "Notice updated successfully."
+msgstr ""
+
+#: template/notice.php:73
+msgid "Notice deleted successfully"
+msgstr ""
+
+#: template/performance.php:77
+msgid "Perfomance Marks insert successfully"
+msgstr ""
+
+#: template/performance.php:83
+msgid "Perfomance Marks update successfully."
+msgstr ""
+
+#: template/performance.php:89
+msgid "Perfomance Marks delete successfully"
+msgstr ""
+
+#: template/performance.php:104
+msgid "Performance Marks List"
+msgstr ""
+
+#: template/performance.php:112
+msgid "Edit performance Marks "
+msgstr ""
+
+#: template/performance.php:118
+msgid "Add Performance Marks "
+msgstr ""
+
+#: template/profile.php:115
+msgid "Profile update successfully."
+msgstr ""
+
+#: template/profile.php:117
+msgid "Confirm password does not match."
+msgstr ""
+
+#: template/profile.php:119
+msgid "Enter correct current password."
+msgstr ""
+
+#: template/profile.php:124
+msgid "Account Settings "
+msgstr ""
+
+#: template/profile.php:168
+msgid "Current Password"
+msgstr ""
+
+#: template/profile.php:175
+msgid "New Password"
+msgstr ""
+
+#: template/profile.php:182
+msgid "Confirm Password"
+msgstr ""
+
+#: template/profile.php:200
+msgid "Other Information"
+msgstr ""
+
+#: template/project.php:70
+msgid "Project updated successfully"
+msgstr ""
+
+#: template/project.php:76
+msgid "Task inserted successfully"
+msgstr ""
+
+#: template/project.php:79
+msgid "Task updated successfully"
+msgstr ""
+
+#: template/project.php:82
+msgid "Task deleted successfully"
+msgstr ""
+
+#: template/project.php:119
+msgid "Task List"
+msgstr ""
+
+#: template/project.php:533 template/time_tracker.php:271
+msgid "working Date"
+msgstr ""
+
+#: template/requirements.php:75
+msgid "Job inserted successfully"
+msgstr ""
+
+#: template/requirements.php:78
+msgid "Candidate insert  successfully."
+msgstr ""
+
+#: template/requirements.php:81
+msgid "Job updated successfully"
+msgstr ""
+
+#: template/requirements.php:84
+msgid "Candidate updated  successfully"
+msgstr ""
+
+#: template/requirements.php:87
+msgid "Candidate deleted  successfully"
+msgstr ""
+
+#: template/requirements.php:90
+msgid "Job deleted  successfully"
+msgstr ""
+
+#: template/requirements.php:123
+msgid "Add  Job"
+msgstr ""
+
+#: template/requirements.php:130
+msgid "Candidate List"
+msgstr ""
+
+#: template/requirements.php:364
+msgid "Crierearea "
+msgstr ""
+
+#: template/requirment/shortlist_candidates.php:64
+#: template/requirment/shortlist_candidates.php:74
+msgid "Appliy for Job"
+msgstr ""
+
+#: template/skill_metrix.php:47
+msgid "Edit Skill Matrix "
+msgstr ""
+
+#: template/time_tracker.php:45
+msgid "Record inserted successfully"
+msgstr ""
+
+#: template/time_tracker.php:52
+msgid "Record updated successfully."
+msgstr ""
+
+#: template/time_tracker.php:60
+msgid "Record deleted successfully"
+msgstr ""
+
+#: template/time_tracker.php:89
+msgid "Time Tracker List"
+msgstr ""
+
+#: template/time_tracker.php:96
+msgid "Edit Time Tracker"
+msgstr ""
+
+#: template/time_tracker.php:102
+msgid "Add Time Tracker"
+msgstr ""
+
+#: template/travel.php:39
+msgid "Travel inserted successfully"
+msgstr ""
+
+#: template/travel.php:46
+msgid "Travel updated successfully."
+msgstr ""
+
+#: template/travel.php:53
+msgid "Travel deleted successfully"
+msgstr ""
+
+#: template/travel.php:76
+msgid "Travel List"
+msgstr ""
+
+#: template/user.php:465
+msgid "CSV file imported successfully"
+msgstr ""
+
+#: template/user.php:470
+msgid "HR Manager updat successfully."
+msgstr ""
+
+#: template/user.php:539
+msgid " Edit User"
+msgstr ""
+
+#: template/user/accountantlist.php:43 template/user/accountantlist.php:53
+#: template/user/hr_list.php:40 template/user/hr_list.php:53
+msgid "Code"
+msgstr ""
+
+#: template/user/index.php:192
+msgid "Employee inserted successfully"
+msgstr ""
+
+#: template/user/index.php:197
+msgid "Employee updated successfully."
+msgstr ""
+
+#: template/user/index.php:202
+msgid "Employee deleted successfully"
+msgstr ""
+
+#: template/user/index.php:209
+msgid "HR Manager inserted successfully"
+msgstr ""
+
+#: template/user/index.php:214
+msgid "HR Manager updated successfully."
+msgstr ""
+
+#: template/user/index.php:219
+msgid "HR Manager deleted successfully"
+msgstr ""
+
+#: template/user/index.php:226
+msgid "Accountant inserted successfully"
+msgstr ""
+
+#: template/user/index.php:231
+msgid "Accountant updated successfully."
+msgstr ""
+
+#: template/user/index.php:236
+msgid "Accountant deleted successfully"
+msgstr ""
+
+#: template/user/index.php:257
+msgid "Employee2 List"
+msgstr ""
